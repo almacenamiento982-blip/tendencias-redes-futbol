@@ -278,6 +278,7 @@ def main():
     ult = {'numero': d['numero'], 'fecha': d['fecha'], 'resumen': d.get('resumen', {}),
            'tendencias': [t['titulo'] for t in d.get('tendencias', [])],
            'replicar': {c: [{'es': r.get('es', ''), 'en': r.get('en', '')} for t in d.get('tendencias', []) for r in t.get('replicar', []) if r.get('cuenta') == c][:2] for c in CUENTAS},
+           'destacadas': [{'titulo': t['titulo'], 'cuenta': t['ejemplos'][0]['cuenta'], 'enlace': t['ejemplos'][0]['enlace']} for t in d.get('tendencias', []) if t.get('ejemplos')],
            'url': 'https://almacenamiento982-blip.github.io/tendencias-redes-futbol/'}
     if d.get('actualizado'):
         m = miami(d['actualizado']); p = proxima(m)

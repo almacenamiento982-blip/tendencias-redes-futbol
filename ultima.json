@@ -55,6 +55,40 @@
    }
   ]
  },
+ "destacadas": [
+  {
+   "titulo": {
+    "es": "Momentos reales en video corto",
+    "en": "Real moments in short video"
+   },
+   "cuenta": "intermiamicf",
+   "enlace": "https://www.instagram.com/reel/DfqCMcRsWF2/"
+  },
+  {
+   "titulo": {
+    "es": "Anuncio con fechas y sedes",
+    "en": "Announcement with dates and venues"
+   },
+   "cuenta": "usyouthsoccer",
+   "enlace": "https://www.instagram.com/p/DfkbVfIJnzD/"
+  },
+  {
+   "titulo": {
+    "es": "Del camp o la academia al club profesional",
+    "en": "From camp or academy to a pro club"
+   },
+   "cuenta": "rmfclinicsusa",
+   "enlace": "https://www.instagram.com/reel/DfpgnetxdGK/"
+  },
+  {
+   "titulo": {
+    "es": "Homenaje con gesto de equipo",
+    "en": "Team-gesture tribute"
+   },
+   "cuenta": "brfootball",
+   "enlace": "https://www.instagram.com/p/DfvBdH9muYX/"
+  }
+ ],
  "url": "https://almacenamiento982-blip.github.io/tendencias-redes-futbol/",
  "actualizado": "2026-11-15T07:15:06Z",
  "act_txt": {
