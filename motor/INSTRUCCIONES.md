@@ -6,7 +6,7 @@ Lo sigue la rutina programada de Claude cada lunes (después de la lectura de la
 1. Descargar la lectura de la semana desde la URL del lector (viene en el mensaje de la rutina, con su clave) a un archivo temporal FUERA del repo (por ejemplo `/tmp/lectura.json`). Si responde `{"error":"clave"}` o la fecha `leido` tiene más de 2 días, parar y avisar en el resumen final: no publicar.
 2. `python motor/preparar.py /tmp/lectura.json > /tmp/resumen.json` y leer el resumen. Las cifras salen de ahí, nunca inventadas.
 3. Leer la edición anterior más reciente en `motor/ediciones/` para comparar (qué se repite, qué es nuevo).
-4. Escribir `motor/ediciones/AAAA-MM-DD.json` (fecha del lunes), con `numero` = anterior + 1, siguiendo el esquema de abajo.
+4. Escribir `motor/ediciones/AAAA-MM-DD.json` (fecha de hoy), con `numero` = anterior + 1, `"auto": true`, siguiendo el esquema de abajo. Si la edición más reciente tiene `"auto": true` y es de hace menos de 3 días (por ejemplo, una prueba), reemplazarla: borrar ese JSON y su HTML en `ediciones/` y usar su mismo `numero`. **Nunca borrar ni cambiar una edición sin `"auto": true`** (las hechas a mano, como la edición 1 del 14-11).
 5. `python motor/build.py` y revisar que no falle.
 6. `git add -A && git commit -m "Edición N (AAAA-MM-DD)" && git push` a `main`.
 
