@@ -19,7 +19,7 @@ Lo sigue la rutina programada de Claude cada lunes (después de la lectura de la
   - `titulo` (2–5 palabras, nombre del formato, p. ej. "Momentos reales en video corto"), `origen` ("instagram" o "tiktok").
   - `que_es`: 1 frase que explique el formato para que cualquiera lo entienda.
   - `dato`: 1 frase con la prueba en lenguaje simple ("tuvo 14 veces más me gusta de lo normal en esa cuenta"). Nombrar la cuenta (marca o club), nunca personas menores.
-  - `ejemplos`: 1–2 `{cuenta, enlace}` con el enlace exacto de la publicación de `resumen.destacadas` (la página muestra la vista previa oficial de Instagram).
+  - `ejemplos`: 1–2 `{cuenta, enlace, likes, comentarios, vistas}` copiados tal cual de `resumen.destacadas` (enlace exacto; `vistas` = reproducciones, solo en reels, puede venir vacío). La página muestra la vista previa oficial de Instagram y debajo las cifras; el command center muestra el primer ejemplo de cada tendencia como miniatura.
   - `replicar`: 1–3 `{cuenta, es, en}` con `cuenta` exactamente "Athletum", "Juve Miami" o "Juventus Camps" y una idea concreta y corta para esa cuenta. Entre todas las tendencias, que cada una de las 3 cuentas tenga al menos 1 idea.
 - `hashtags`: `nota` (1 frase) + `filas` [{hashtag, desc{es,en} (qué es, corto; si no es de fútbol: "Tema general, no de fútbol"), vistas (número), curva (copiar tal cual de la lectura)}]. Desde el lector llegan los primeros puestos del top general de TikTok EE. UU.
 - No incluir `nuestras` ni `metodo` (David, 15-11: se omiten de la página).

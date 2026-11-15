@@ -62,7 +62,10 @@
     "en": "Real moments in short video"
    },
    "cuenta": "intermiamicf",
-   "enlace": "https://www.instagram.com/reel/DfqCMcRsWF2/"
+   "enlace": "https://www.instagram.com/reel/DfqCMcRsWF2/",
+   "likes": 490173,
+   "comentarios": 1779,
+   "vistas": 10399407
   },
   {
    "titulo": {
@@ -70,7 +73,9 @@
     "en": "Announcement with dates and venues"
    },
    "cuenta": "usyouthsoccer",
-   "enlace": "https://www.instagram.com/p/DfkbVfIJnzD/"
+   "enlace": "https://www.instagram.com/p/DfkbVfIJnzD/",
+   "likes": 2048,
+   "comentarios": 3
   },
   {
    "titulo": {
@@ -78,7 +83,10 @@
     "en": "From camp or academy to a pro club"
    },
    "cuenta": "rmfclinicsusa",
-   "enlace": "https://www.instagram.com/reel/DfpgnetxdGK/"
+   "enlace": "https://www.instagram.com/reel/DfpgnetxdGK/",
+   "likes": 104,
+   "comentarios": 0,
+   "vistas": 4715
   },
   {
    "titulo": {
@@ -86,9 +94,12 @@
     "en": "Team-gesture tribute"
    },
    "cuenta": "brfootball",
-   "enlace": "https://www.instagram.com/p/DfvBdH9muYX/"
+   "enlace": "https://www.instagram.com/p/DfvBdH9muYX/",
+   "likes": 90144,
+   "comentarios": 1223
   }
  ],
+ "auto": true,
  "url": "https://almacenamiento982-blip.github.io/tendencias-redes-futbol/",
  "actualizado": "2026-11-15T07:15:06Z",
  "act_txt": {

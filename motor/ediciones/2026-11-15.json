@@ -29,11 +29,17 @@
    "ejemplos": [
     {
      "cuenta": "intermiamicf",
-     "enlace": "https://www.instagram.com/reel/DfqCMcRsWF2/"
+     "enlace": "https://www.instagram.com/reel/DfqCMcRsWF2/",
+     "likes": 490173,
+     "comentarios": 1779,
+     "vistas": 10399407
     },
     {
      "cuenta": "mlsnextpro",
-     "enlace": "https://www.instagram.com/reel/DfgLfhDRMvp/"
+     "enlace": "https://www.instagram.com/reel/DfgLfhDRMvp/",
+     "likes": 3348,
+     "comentarios": 45,
+     "vistas": 54682
     }
    ],
    "replicar": [
@@ -66,11 +72,15 @@
    "ejemplos": [
     {
      "cuenta": "usyouthsoccer",
-     "enlace": "https://www.instagram.com/p/DfkbVfIJnzD/"
+     "enlace": "https://www.instagram.com/p/DfkbVfIJnzD/",
+     "likes": 2048,
+     "comentarios": 3
     },
     {
      "cuenta": "barcaacademyus",
-     "enlace": "https://www.instagram.com/p/Dfm2U-sAHlw/"
+     "enlace": "https://www.instagram.com/p/Dfm2U-sAHlw/",
+     "likes": 836,
+     "comentarios": 25
     }
    ],
    "replicar": [
@@ -103,11 +113,16 @@
    "ejemplos": [
     {
      "cuenta": "rmfclinicsusa",
-     "enlace": "https://www.instagram.com/reel/DfpgnetxdGK/"
+     "enlace": "https://www.instagram.com/reel/DfpgnetxdGK/",
+     "likes": 104,
+     "comentarios": 0,
+     "vistas": 4715
     },
     {
      "cuenta": "fcbayernpathway",
-     "enlace": "https://www.instagram.com/p/DfsB6VaEQva/"
+     "enlace": "https://www.instagram.com/p/DfsB6VaEQva/",
+     "likes": 5166,
+     "comentarios": 32
     }
    ],
    "replicar": [
@@ -140,7 +155,9 @@
    "ejemplos": [
     {
      "cuenta": "brfootball",
-     "enlace": "https://www.instagram.com/p/DfvBdH9muYX/"
+     "enlace": "https://www.instagram.com/p/DfvBdH9muYX/",
+     "likes": 90144,
+     "comentarios": 1223
     }
    ],
    "replicar": [

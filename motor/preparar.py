@@ -25,7 +25,7 @@ def main():
                 formatos.setdefault(p['tipo'], []).append(p['veces'] or 0)
                 if (p['veces'] or 0) >= 2 and c['mediana_likes'] >= 20 and grupo != 'Nuestras cuentas':
                     out['destacadas'].append({'grupo': grupo, 'cuenta': c['u'], 'fecha': p['fecha'], 'tipo': p['tipo'], 'veces': p['veces'],
-                                              'likes': p['likes'], 'comentarios': p['comentarios'], 'enlace': p['enlace'], 'texto_para_entender': p['texto'][:280]})
+                                              'likes': p['likes'], 'comentarios': p['comentarios'], 'vistas': p.get('vistas'), 'enlace': p['enlace'], 'texto_para_entender': p['texto'][:280]})
     out['destacadas'].sort(key=lambda x: -x['veces'])
     out['por_formato'] = {t: {'publicaciones': len(v), 'mediana_veces': round(statistics.median(v), 2)} for t, v in formatos.items()}
     print(json.dumps(out, ensure_ascii=False, indent=1))

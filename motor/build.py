@@ -61,6 +61,25 @@ def vistas_cortas(v, l):
     else: s = f'{n:.0f}'
     return s.replace('.', ',') if l == 'es' else s
 
+def corto(n, l):
+    try:
+        n = float(n)
+    except (TypeError, ValueError):
+        return ''
+    if n >= 1e6: s = f'{n / 1e6:.1f}'.rstrip('0').rstrip('.') + (' M' if l == 'es' else 'M')
+    elif n >= 1e4: s = f'{n / 1e3:.0f}' + (' mil' if l == 'es' else 'K')
+    elif n >= 1e3: s = f'{n / 1e3:.1f}'.rstrip('0').rstrip('.') + (' mil' if l == 'es' else 'K')
+    else: s = f'{n:.0f}'
+    return s.replace('.', ',') if l == 'es' else s
+
+def cifras(x, l):
+    """'732 mil reproducciones · 5,1 mil me gusta · 26 comentarios' (lo que haya)."""
+    p = []
+    if x.get('vistas'): p.append(corto(x['vistas'], l) + (' reproducciones' if l == 'es' else ' plays'))
+    if x.get('likes') is not None: p.append(corto(x['likes'], l) + (' me gusta' if l == 'es' else ' likes'))
+    if x.get('comentarios'): p.append(corto(x['comentarios'], l) + (' comentarios' if l == 'es' else ' comments'))
+    return ' · '.join(p)
+
 def chip_cuenta(c):
     return f'<span class="cta cta-{["athletum", "juve-miami", "juventus-camps"][CUENTAS.index(c)] if c in CUENTAS else "otra"}">{E(c)}</span>'
 
@@ -95,7 +114,7 @@ def cuerpo(d, l, otras):
     cards = ''
     for i, t in enumerate(tends, 1):
         ej = t.get('ejemplos', [])[:2]
-        prevs = ''.join(f'<div class="ej"><div class="ej-c">@{E(x["cuenta"])}</div>{preview(x["enlace"], l)}</div>' for x in ej)
+        prevs = ''.join(f'<div class="ej"><div class="ej-c">@{E(x["cuenta"])}</div>{preview(x["enlace"], l)}<div class="ej-s">{E(cifras(x, l))}</div></div>' for x in ej)
         rpl = ''.join(f'<li>{chip_cuenta(r.get("cuenta", ""))}<span>{E(tx(r, l))}</span></li>' for r in t.get('replicar', []))
         orig = {'instagram': 'Instagram', 'tiktok': 'TikTok'}.get(t.get('origen', 'instagram'), 'Instagram')
         cards += f'''<article class="tend panel" id="{l}-t{i}">
@@ -144,7 +163,7 @@ def cabecera(d, l):
     if act:
         m = miami(act)
         upd = (f'<div class="upd"><span class="dot"></span><span>{"Actualizado" if es else "Updated"} <b>{E(fecha_hora(m, l))}</b></span>'
-               f'<span class="sep">·</span><span>{"Próxima actualización" if es else "Next update"} <b>{E(fecha_hora(proxima(m), l))}</b> <span class="mia">(Miami)</span></span></div>')
+               f'<span class="sep">·</span><span>{"Se actualiza de forma automática el" if es else "Updates automatically on"} <b>{E(fecha_hora(proxima(m), l))}</b> <span class="mia">(Miami)</span></span></div>')
     ed = (f'Edición {d["numero"]} · semana del {tx(d["fecha_texto"], l)}' if es else f'Edition {d["numero"]} · week of {tx(d["fecha_texto"], l)}')
     return f'''<header><div class="in"><div class="top"><div>
 <p class="eyebrow">{E(ed)}</p>
@@ -197,7 +216,7 @@ h3{font-size:17px;font-weight:700;margin:0;line-height:1.25}
 .dato{margin:0 0 14px;font-size:13.5px;color:var(--suave)}.dato b{color:var(--tinta);font-weight:600}
 .tend-body{display:grid;gap:16px;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);align-items:start}
 .ejs{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(240px,330px))}
-.ej-c{font-size:12.5px;font-weight:700;color:var(--suave);margin-bottom:6px}
+.ej-c{font-size:12.5px;font-weight:700;color:var(--suave);margin-bottom:6px}.ej-s{font-size:12.5px;color:var(--suave);margin-top:6px;font-variant-numeric:tabular-nums}
 .igp{min-height:140px;border-radius:12px;overflow:hidden;background:var(--panel2);display:flex;justify-content:center}
 .igp-f{align-self:center;font-size:13px;color:var(--suave);padding:24px;text-decoration:none}
 .igp .instagram-media{margin:0!important;min-width:0!important;width:100%!important;max-width:540px!important;border:0!important}
@@ -278,7 +297,9 @@ def main():
     ult = {'numero': d['numero'], 'fecha': d['fecha'], 'resumen': d.get('resumen', {}),
            'tendencias': [t['titulo'] for t in d.get('tendencias', [])],
            'replicar': {c: [{'es': r.get('es', ''), 'en': r.get('en', '')} for t in d.get('tendencias', []) for r in t.get('replicar', []) if r.get('cuenta') == c][:2] for c in CUENTAS},
-           'destacadas': [{'titulo': t['titulo'], 'cuenta': t['ejemplos'][0]['cuenta'], 'enlace': t['ejemplos'][0]['enlace']} for t in d.get('tendencias', []) if t.get('ejemplos')],
+           'destacadas': [dict({'titulo': t['titulo'], 'cuenta': t['ejemplos'][0]['cuenta'], 'enlace': t['ejemplos'][0]['enlace']},
+                               **{k: t['ejemplos'][0][k] for k in ('likes', 'comentarios', 'vistas') if t['ejemplos'][0].get(k) is not None}) for t in d.get('tendencias', []) if t.get('ejemplos')],
+           'auto': True,
            'url': 'https://almacenamiento982-blip.github.io/tendencias-redes-futbol/'}
     if d.get('actualizado'):
         m = miami(d['actualizado']); p = proxima(m)
