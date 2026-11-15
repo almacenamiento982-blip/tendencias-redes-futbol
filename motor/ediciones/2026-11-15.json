@@ -169,65 +169,6 @@
    ]
   }
  ],
- "hashtags": {
-  "nota": {
-   "es": "Top general de TikTok en EE. UU. esta semana (sin fútbol entre los primeros puestos). La línea muestra cómo subió en los últimos 7 días; toca uno para ver sus videos.",
-   "en": "TikTok U.S. overall top this week (no soccer among the top spots). The line shows how it rose over the last 7 days; tap one to see its videos."
-  },
-  "filas": [
-   {
-    "hashtag": "#veteransday",
-    "desc": {
-     "es": "Día de los Veteranos en EE. UU.",
-     "en": "U.S. Veterans Day"
-    },
-    "vistas": "126.5M",
-    "curva": [
-     0,
-     6.6,
-     11.6,
-     24.3,
-     44.8,
-     100,
-     82.3
-    ]
-   },
-   {
-    "hashtag": "#mymoonmyman",
-    "desc": {
-     "es": "Tema general, no de fútbol",
-     "en": "General topic, not soccer"
-    },
-    "vistas": "62.1M",
-    "curva": [
-     0,
-     3.5,
-     29.1,
-     72.2,
-     91.8,
-     92.9,
-     100
-    ]
-   },
-   {
-    "hashtag": "#lamansionvip",
-    "desc": {
-     "es": "Tema general, no de fútbol",
-     "en": "General topic, not soccer"
-    },
-    "vistas": "545.1M",
-    "curva": [
-     0,
-     1.4,
-     28.8,
-     93.7,
-     93.9,
-     93.3,
-     100
-    ]
-   }
-  ]
- },
  "nuestras": {
   "nota": {
    "es": "Su mejor publicación de la semana comparada con lo normal de cada cuenta.",
@@ -289,5 +230,169 @@
    "es": "Se actualiza cada lunes de forma automática.",
    "en": "Updated automatically every Monday."
   }
- ]
+ ],
+ "tiktok": {
+  "nota": {
+   "es": "Del top 100 de deportes de TikTok en EE. UU. (últimos 7 días), lo que se puede llevar a nuestras cuentas: retos y formatos aunque no sean de fútbol, y fútbol del momento. La línea muestra cómo se movió en la semana.",
+   "en": "From the TikTok U.S. sports top 100 (last 7 days), what can be brought to our accounts: challenges and formats even if they are not about soccer, and the soccer of the moment. The line shows how it moved during the week."
+  },
+  "items": [
+   {
+    "hashtag": "#whiletheyreoutpartyingbtw",
+    "tipo": {
+     "es": "Formato",
+     "en": "Format"
+    },
+    "que_es": {
+     "es": "\"Mientras ellos están de fiesta…\": video entrenando de noche o al amanecer, con ese texto en pantalla. Sigue subiendo.",
+     "en": "\"While they're out partying…\": a video training at night or at dawn, with that text on screen. Still rising."
+    },
+    "replicar": {
+     "cuenta": "Athletum",
+     "es": "Entrenamiento extra temprano o de noche con el texto \"while they're out partying, btw\".",
+     "en": "Extra early or late training with the text \"while they're out partying, btw\"."
+    },
+    "vistas": 1588118,
+    "curva": [
+     0,
+     35.8,
+     47.7,
+     59.8,
+     89.4,
+     100,
+     96.4
+    ]
+   },
+   {
+    "hashtag": "#summercamp",
+    "tipo": {
+     "es": "Camps",
+     "en": "Camps"
+    },
+    "que_es": {
+     "es": "Recuerdos de campamentos de verano: momentos divertidos, amigos y el último día.",
+     "en": "Summer camp memories: fun moments, friends and the last day."
+    },
+    "replicar": {
+     "cuenta": "Juventus Camps",
+     "es": "Video corto de recuerdos de los camps 2026 que termine con las fechas 2027.",
+     "en": "Short memories video from the 2026 camps ending with the 2027 dates."
+    },
+    "vistas": 4503887,
+    "curva": [
+     0,
+     12,
+     63.3,
+     100,
+     89,
+     54.3,
+     48.8
+    ]
+   },
+   {
+    "hashtag": "#missingsummer",
+    "tipo": {
+     "es": "Formato",
+     "en": "Format"
+    },
+    "que_es": {
+     "es": "\"Extrañando el verano\": clips de verano con nostalgia. Subió fuerte al final de la semana.",
+     "en": "\"Missing summer\": nostalgic summer clips. It rose sharply at the end of the week."
+    },
+    "replicar": {
+     "cuenta": "Juventus Camps",
+     "es": "\"Extrañando el verano\" con lo mejor del camp y la cuenta regresiva a 2027.",
+     "en": "\"Missing summer\" with camp highlights and the countdown to 2027."
+    },
+    "vistas": 1083278,
+    "curva": [
+     0.6,
+     0,
+     42.4,
+     50.3,
+     48,
+     56.6,
+     100
+    ]
+   },
+   {
+    "hashtag": "#technique",
+    "tipo": {
+     "es": "Fútbol",
+     "en": "Soccer"
+    },
+    "que_es": {
+     "es": "Técnica explicada: un gesto o un ejercicio mostrado paso a paso.",
+     "en": "Technique explained: a move or drill shown step by step."
+    },
+    "replicar": {
+     "cuenta": "Juve Miami",
+     "es": "Un ejercicio técnico explicado por un entrenador en 15 segundos.",
+     "en": "A technical drill explained by a coach in 15 seconds."
+    },
+    "vistas": 4475876,
+    "curva": [
+     82.3,
+     0,
+     6.3,
+     9,
+     100,
+     56.9,
+     61
+    ]
+   },
+   {
+    "hashtag": "#nationsleague",
+    "tipo": {
+     "es": "Fútbol",
+     "en": "Soccer"
+    },
+    "que_es": {
+     "es": "El torneo de selecciones de Europa (UEFA Nations League), en subida toda la semana.",
+     "en": "Europe's national-team tournament (UEFA Nations League), rising all week."
+    },
+    "replicar": {
+     "cuenta": "Juve Miami",
+     "es": "Historia con encuesta: \"¿qué selección gana?\", con los niños con la camiseta de su país.",
+     "en": "Story poll: \"which national team wins?\", with kids in their country's jersey."
+    },
+    "vistas": 15846327,
+    "curva": [
+     12.2,
+     0,
+     10.7,
+     39.1,
+     51.7,
+     91.8,
+     100
+    ]
+   },
+   {
+    "hashtag": "#ardaguler",
+    "tipo": {
+     "es": "Fútbol",
+     "en": "Soccer"
+    },
+    "que_es": {
+     "es": "Arda Güler, la joven figura del Real Madrid: sus goles y jugadas, en subida al cierre de la semana.",
+     "en": "Arda Güler, Real Madrid's young star: his goals and plays, rising at the end of the week."
+    },
+    "replicar": {
+     "cuenta": "Athletum",
+     "es": "Recrear un gol o una jugada suya con jugadores del club.",
+     "en": "Recreate one of his goals or plays with club players."
+    },
+    "vistas": 18474201,
+    "curva": [
+     59.4,
+     50.5,
+     0,
+     24.2,
+     54.7,
+     98.4,
+     100
+    ]
+   }
+  ]
+ }
 }

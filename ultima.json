@@ -100,6 +100,134 @@
   }
  ],
  "auto": true,
+ "tiktok": [
+  {
+   "hashtag": "#whiletheyreoutpartyingbtw",
+   "tipo": {
+    "es": "Formato",
+    "en": "Format"
+   },
+   "que_es": {
+    "es": "\"Mientras ellos están de fiesta…\": video entrenando de noche o al amanecer, con ese texto en pantalla. Sigue subiendo.",
+    "en": "\"While they're out partying…\": a video training at night or at dawn, with that text on screen. Still rising."
+   },
+   "vistas": 1588118,
+   "curva": [
+    0,
+    35.8,
+    47.7,
+    59.8,
+    89.4,
+    100,
+    96.4
+   ]
+  },
+  {
+   "hashtag": "#summercamp",
+   "tipo": {
+    "es": "Camps",
+    "en": "Camps"
+   },
+   "que_es": {
+    "es": "Recuerdos de campamentos de verano: momentos divertidos, amigos y el último día.",
+    "en": "Summer camp memories: fun moments, friends and the last day."
+   },
+   "vistas": 4503887,
+   "curva": [
+    0,
+    12,
+    63.3,
+    100,
+    89,
+    54.3,
+    48.8
+   ]
+  },
+  {
+   "hashtag": "#missingsummer",
+   "tipo": {
+    "es": "Formato",
+    "en": "Format"
+   },
+   "que_es": {
+    "es": "\"Extrañando el verano\": clips de verano con nostalgia. Subió fuerte al final de la semana.",
+    "en": "\"Missing summer\": nostalgic summer clips. It rose sharply at the end of the week."
+   },
+   "vistas": 1083278,
+   "curva": [
+    0.6,
+    0,
+    42.4,
+    50.3,
+    48,
+    56.6,
+    100
+   ]
+  },
+  {
+   "hashtag": "#technique",
+   "tipo": {
+    "es": "Fútbol",
+    "en": "Soccer"
+   },
+   "que_es": {
+    "es": "Técnica explicada: un gesto o un ejercicio mostrado paso a paso.",
+    "en": "Technique explained: a move or drill shown step by step."
+   },
+   "vistas": 4475876,
+   "curva": [
+    82.3,
+    0,
+    6.3,
+    9,
+    100,
+    56.9,
+    61
+   ]
+  },
+  {
+   "hashtag": "#nationsleague",
+   "tipo": {
+    "es": "Fútbol",
+    "en": "Soccer"
+   },
+   "que_es": {
+    "es": "El torneo de selecciones de Europa (UEFA Nations League), en subida toda la semana.",
+    "en": "Europe's national-team tournament (UEFA Nations League), rising all week."
+   },
+   "vistas": 15846327,
+   "curva": [
+    12.2,
+    0,
+    10.7,
+    39.1,
+    51.7,
+    91.8,
+    100
+   ]
+  },
+  {
+   "hashtag": "#ardaguler",
+   "tipo": {
+    "es": "Fútbol",
+    "en": "Soccer"
+   },
+   "que_es": {
+    "es": "Arda Güler, la joven figura del Real Madrid: sus goles y jugadas, en subida al cierre de la semana.",
+    "en": "Arda Güler, Real Madrid's young star: his goals and plays, rising at the end of the week."
+   },
+   "vistas": 18474201,
+   "curva": [
+    59.4,
+    50.5,
+    0,
+    24.2,
+    54.7,
+    98.4,
+    100
+   ]
+  }
+ ],
  "url": "https://almacenamiento982-blip.github.io/tendencias-redes-futbol/",
  "actualizado": "2026-11-15T07:15:06Z",
  "act_txt": {

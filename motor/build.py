@@ -127,7 +127,20 @@ def cuerpo(d, l, otras):
     s2 = f'''<section id="{l}-tendencias"><h2>{T('Tendencias de la semana', 'Trends of the week')}</h2>
   <p class="sub">{T('Lo que más funcionó en cuentas de fútbol (academias de clubes, fútbol juvenil de EE. UU., fútbol global), con un ejemplo real y cómo llevarlo a nuestras cuentas.', 'What worked best on soccer accounts (club academies, U.S. youth soccer, global soccer), with a real example and how to bring it to our accounts.')}</p>
   <div class="tends">{cards}</div></section>'''
-    # 3. Hashtags
+    # 3. TikTok: tendencias que nos aplican (formato nuevo) o hashtags (ediciones viejas)
+    tk = d.get('tiktok')
+    if tk and tk.get('items'):
+        filas_k = ''.join(
+            f'<li class="tk"><div class="tk-a"><div class="tk-h"><a class="hs-t" href="{E(tag_url(x["hashtag"]))}" target="_blank" rel="noopener">{E(x["hashtag"])}</a>'
+            f'<span class="tk-tipo">{E(tx(x.get("tipo", ""), l))}</span></div><p class="tk-q">{E(tx(x.get("que_es", ""), l))}</p>'
+            + (f'<p class="tk-r">{chip_cuenta(x["replicar"].get("cuenta", ""))}<span>{E(tx(x["replicar"], l))}</span></p>' if x.get('replicar') else '') +
+            f'</div><div class="hs-b">{chispa(x.get("curva"))}<span class="hs-v">{E(vistas_cortas(x.get("vistas", ""), l))} {T("vistas", "views")}</span>'
+            f'<a class="btn-s" href="{E(tag_url(x["hashtag"]))}" target="_blank" rel="noopener">{T("Ver videos", "See videos")} ↗</a></div></li>'
+            for x in tk['items'])
+        s3 = (f'''<section id="{l}-hashtags"><h2>{T('TikTok: tendencias que nos aplican', 'TikTok: trends that apply to us')}</h2>
+  <p class="sub">{E(tx(tk.get("nota", ""), l))}</p><ul class="panel hss">{filas_k}</ul></section>''')
+    else:
+        s3 = ''
     hs = d.get('hashtags', {})
     filas_h = ''.join(
         f'<li class="hs"><div class="hs-a"><a class="hs-t" href="{E(tag_url(h["hashtag"]))}" target="_blank" rel="noopener">{E(h["hashtag"])}</a>'
@@ -135,7 +148,7 @@ def cuerpo(d, l, otras):
         f'<div class="hs-b">{chispa(h.get("curva"))}<span class="hs-v">{E(vistas_cortas(h.get("vistas", ""), l))} {T("vistas", "views")}</span>'
         f'<a class="btn-s" href="{E(tag_url(h["hashtag"]))}" target="_blank" rel="noopener">{T("Ver videos", "See videos")} ↗</a></div></li>'
         for h in hs.get('filas', []))
-    s3 = (f'''<section id="{l}-hashtags"><h2>{T('Hashtags en tendencia · TikTok', 'Trending hashtags · TikTok')}</h2>
+    s3 = s3 or (f'''<section id="{l}-hashtags"><h2>{T('Hashtags en tendencia · TikTok', 'Trending hashtags · TikTok')}</h2>
   <p class="sub">{E(tx(hs.get("nota", ""), l))}</p><ul class="panel hss">{filas_h}</ul></section>''' if filas_h else '')
     # 4. Nuestras cuentas
     nu = d.get('nuestras', {})
@@ -150,7 +163,7 @@ def cuerpo(d, l, otras):
     s5 = f'''<section id="{l}-metodo"><details class="panel det"><summary>{T('Cómo se hace este informe y ediciones anteriores', 'How this report is made and past editions')}</summary>
   <ul>{met}</ul>{('<p class="eyebrow">' + T('Ediciones anteriores', 'Past editions') + '</p><ul>' + arch + '</ul>') if arch else ''}</details></section>'''
     nav = [('resumen', T('Resumen', 'Summary')), ('tendencias', T('Tendencias', 'Trends'))]
-    if s3: nav.append(('hashtags', 'Hashtags'))
+    if s3: nav.append(('hashtags', 'TikTok'))
     navh = ''.join(f'<a href="#{l}-{a}">{b}</a>' for a, b in nav)
     s4 = ''  # 15-11 (David): sin 'Cómo van nuestras cuentas'
     arch_pie = (f'<section class="arch"><span>' + T('Ediciones anteriores', 'Past editions') + ':</span> ' + ' · '.join(f'<a href="{E(h)}?lang={l}">{E(t)}</a>' for t, h in otras) + '</section>') if otras else ''
@@ -226,7 +239,7 @@ h3{font-size:17px;font-weight:700;margin:0;line-height:1.25}
 .hss{list-style:none;margin:0;padding:6px 18px}
 .hs{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--linea);flex-wrap:wrap}.hs:last-child{border-bottom:0}
 .hs-a{display:flex;flex-direction:column;min-width:0}.hs-t{font-weight:700;color:var(--tinta);text-decoration:none}.hs-t:hover{color:var(--acento)}
-.hs-d{font-size:13px;color:var(--suave)}.hs-b{display:flex;align-items:center;gap:14px}
+.hs-d{font-size:13px;color:var(--suave)}.tk{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--linea);flex-wrap:wrap}.tk:last-child{border-bottom:0}.tk-a{flex:1 1 380px;min-width:0}.tk-h{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.tk-tipo{font-size:11.5px;font-weight:700;border:1px solid var(--linea);border-radius:99px;padding:2px 9px;color:var(--suave)}.tk-q{margin:6px 0 0;font-size:14px}.tk-r{margin:8px 0 0;display:flex;gap:8px;align-items:flex-start;font-size:13.5px;color:var(--suave)}.hs-b{display:flex;align-items:center;gap:14px}
 .chispa{color:var(--acento)}.hs-v{font-size:13px;color:var(--suave);min-width:80px;text-align:right}
 .btn-s{display:inline-flex;align-items:center;height:30px;padding:0 10px;border-radius:9px;border:1px solid var(--linea);background:var(--panel2);color:var(--tinta);text-decoration:none;font-size:12.5px;font-weight:600;white-space:nowrap}
 .btn-s:hover{border-color:var(--acento)}
@@ -300,6 +313,7 @@ def main():
            'destacadas': [dict({'titulo': t['titulo'], 'cuenta': t['ejemplos'][0]['cuenta'], 'enlace': t['ejemplos'][0]['enlace']},
                                **{k: t['ejemplos'][0][k] for k in ('likes', 'comentarios', 'vistas') if t['ejemplos'][0].get(k) is not None}) for t in d.get('tendencias', []) if t.get('ejemplos')],
            'auto': True,
+           'tiktok': [{'hashtag': x['hashtag'], 'tipo': x.get('tipo'), 'que_es': x.get('que_es'), 'vistas': x.get('vistas'), 'curva': x.get('curva')} for x in (d.get('tiktok') or {}).get('items', [])][:6],
            'url': 'https://almacenamiento982-blip.github.io/tendencias-redes-futbol/'}
     if d.get('actualizado'):
         m = miami(d['actualizado']); p = proxima(m)
