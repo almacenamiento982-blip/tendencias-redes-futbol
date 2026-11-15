@@ -1,0 +1,69 @@
+{
+ "numero": 2,
+ "fecha": "2026-11-15",
+ "resumen": {
+  "es": "Esta semana lo que más funcionó fueron los momentos reales en video corto (goles, finales), los anuncios con fechas y sedes y las historias de jugadores que llegan a un club profesional.",
+  "en": "This week what worked best were real moments in short video (goals, finals), announcements with dates and venues, and stories of players reaching a pro club."
+ },
+ "tendencias": [
+  {
+   "es": "Momentos reales en video corto",
+   "en": "Real moments in short video"
+  },
+  {
+   "es": "Anuncio con fechas y sedes",
+   "en": "Announcement with dates and venues"
+  },
+  {
+   "es": "Del camp o la academia al club profesional",
+   "en": "From camp or academy to a pro club"
+  },
+  {
+   "es": "Homenaje con gesto de equipo",
+   "en": "Team-gesture tribute"
+  }
+ ],
+ "replicar": {
+  "Athletum": [
+   {
+    "es": "Reel de 15 segundos con los mejores goles del entrenamiento de la semana.",
+    "en": "15-second reel with the week's best training goals."
+   },
+   {
+    "es": "Imagen clara con las fechas de las próximas pruebas (tryouts).",
+    "en": "Clear image with the dates of the next tryouts."
+   }
+  ],
+  "Juve Miami": [
+   {
+    "es": "La mejor jugada o la celebración del fin de semana en un reel corto.",
+    "en": "The weekend's best play or celebration in a short reel."
+   },
+   {
+    "es": "Día de partido de la Juventus: toda la academia con la camiseta.",
+    "en": "Juventus match day: the whole academy in the jersey."
+   }
+  ],
+  "Juventus Camps": [
+   {
+    "es": "Carrusel con ciudades y fechas 2027 y un \"¿quién puede venir?\" en preguntas y respuestas.",
+    "en": "Carousel with 2027 cities and dates plus a \"who can join?\" Q&A."
+   },
+   {
+    "es": "Historia de un jugador seleccionado que viajó a Italia: de dónde salió y qué vivió.",
+    "en": "Story of a selected player who traveled to Italy: where they came from and what they lived."
+   }
+  ]
+ },
+ "url": "https://almacenamiento982-blip.github.io/tendencias-redes-futbol/",
+ "actualizado": "2026-11-15T07:15:06Z",
+ "act_txt": {
+  "es": "dom 15 nov, 2:15 a. m.",
+  "en": "Sun, Nov 15, 2:15 AM"
+ },
+ "prox_txt": {
+  "es": "lun 16 nov, 7:30 a. m.",
+  "en": "Mon, Nov 16, 7:30 AM"
+ },
+ "prox_iso": "2026-11-16T07:30"
+}

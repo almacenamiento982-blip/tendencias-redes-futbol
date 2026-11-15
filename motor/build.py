@@ -274,6 +274,16 @@ def main():
              for r in reversed(todas) if os.path.abspath(r) != os.path.abspath(ruta)]
     io.open(os.path.join(RAIZ, 'index.html'), 'w', encoding='utf-8').write(pagina(d, otras))
     io.open(os.path.join(RAIZ, 'favicon.svg'), 'w', encoding='utf-8').write(FAV)
+    # Resumen para la tarjeta de "Mercado y tendencias" del command center (la lee al abrir la página).
+    ult = {'numero': d['numero'], 'fecha': d['fecha'], 'resumen': d.get('resumen', {}),
+           'tendencias': [t['titulo'] for t in d.get('tendencias', [])],
+           'replicar': {c: [{'es': r.get('es', ''), 'en': r.get('en', '')} for t in d.get('tendencias', []) for r in t.get('replicar', []) if r.get('cuenta') == c][:2] for c in CUENTAS},
+           'url': 'https://almacenamiento982-blip.github.io/tendencias-redes-futbol/'}
+    if d.get('actualizado'):
+        m = miami(d['actualizado']); p = proxima(m)
+        ult.update({'actualizado': d['actualizado'], 'act_txt': {l: fecha_hora(m, l) for l in ('es', 'en')}, 'prox_txt': {l: fecha_hora(p, l) for l in ('es', 'en')},
+                    'prox_iso': p.strftime('%Y-%m-%dT%H:%M')})
+    json.dump(ult, io.open(os.path.join(RAIZ, 'ultima.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('ok', os.path.basename(ruta), '| ediciones:', len(todas))
 
 if __name__ == '__main__':
