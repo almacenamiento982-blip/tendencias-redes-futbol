@@ -72,7 +72,16 @@
      "en": "U.S. Veterans Day"
     },
     "videos": "76,713",
-    "vistas": "126.5M"
+    "vistas": "126.5M",
+    "curva": [
+     0,
+     6.6,
+     11.6,
+     24.3,
+     44.8,
+     100,
+     82.3
+    ]
    },
    {
     "puesto": 2,
@@ -82,7 +91,16 @@
      "en": "General topic, not soccer"
     },
     "videos": "30,601",
-    "vistas": "62.1M"
+    "vistas": "62.1M",
+    "curva": [
+     0,
+     3.5,
+     29.1,
+     72.2,
+     91.8,
+     92.9,
+     100
+    ]
    },
    {
     "puesto": 3,
@@ -92,7 +110,16 @@
      "en": "General topic, not soccer"
     },
     "videos": "46,713",
-    "vistas": "545.1M"
+    "vistas": "545.1M",
+    "curva": [
+     0,
+     1.4,
+     28.8,
+     93.7,
+     93.9,
+     93.3,
+     100
+    ]
    }
   ],
   "nota_final": {
@@ -405,5 +432,6 @@
    "es": "<b>Frecuencia:</b> se actualiza cada lunes de forma automática.",
    "en": "<b>Frequency:</b> updated automatically every Monday."
   }
- ]
+ ],
+ "actualizado": "2026-11-15T07:15:06Z"
 }

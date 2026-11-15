@@ -11,11 +11,11 @@ Lo sigue la rutina programada de Claude cada lunes (después de la lectura de la
 6. `git add -A && git commit -m "Edición N (AAAA-MM-DD)" && git push` a `main`.
 
 ## Esquema de la edición (todo texto visible en {"es": ..., "en": ...})
-- `numero`, `fecha` (AAAA-MM-DD), `fecha_texto` {es: "16 de noviembre de 2026", en: "November 16, 2026"}, `intro`.
+- `numero`, `fecha` (AAAA-MM-DD), `actualizado` (fecha y hora UTC en ISO de cuando se escribe la edición, p. ej. `date -u +%Y-%m-%dT%H:%M:%SZ`; la página la muestra en hora de Miami junto con la próxima actualización), `fecha_texto` {es: "16 de noviembre de 2026", en: "November 16, 2026"}, `intro`.
 - `kpis`: 3 o 4 `{valor, es, en}` (cifra corta + qué es).
 - `hallazgos`: 4 o 5 frases; se permite `<b>…</b>` al inicio.
-- `tiktok`: `titulo`, `fuente`, `filas` [{puesto, hashtag, desc{es,en}, videos, vistas}]. Desde el lector solo llega el top general de EE. UU. (sin sesión, los primeros puestos): poner esos con una `desc` corta de qué es (si no se sabe, "Tema general, no de fútbol"). Agregar `nota_final` explicando que el top 100 de deportes se suma cuando se lee con sesión.
-- `instagram`: `titulo`, `nota` (cuántas cuentas, ventana de días, qué es "veces lo normal"), `filas` [{cuenta, que{es,en}, formato{es,en}, veces, enlace}] con 8–12 destacadas de `resumen.destacadas` (mayor `veces` primero, variando cuentas).
+- `tiktok`: `titulo`, `fuente`, `filas` [{puesto, hashtag, desc{es,en}, videos, vistas, curva}] (copiar `curva` tal cual de la lectura: es la tendencia de 7 días y se dibuja como mini gráfico; el enlace a los videos del hashtag lo pone la página sola). Desde el lector solo llega el top general de EE. UU. (sin sesión, los primeros puestos): poner esos con una `desc` corta de qué es (si no se sabe, "Tema general, no de fútbol"). Agregar `nota_final` explicando que el top 100 de deportes se suma cuando se lee con sesión.
+- `instagram`: `titulo`, `nota` (cuántas cuentas, ventana de días, qué es "veces lo normal"), `filas` [{cuenta, que{es,en}, formato{es,en}, veces, enlace}] (el `enlace` exacto de la publicación: la página muestra la vista previa oficial de Instagram) con 8–12 destacadas de `resumen.destacadas` (mayor `veces` primero, variando cuentas).
 - `nuestras`: `nota` + `filas` [{cuenta, seguidores, posts (de la semana), mediana, mejor{es,en}}] para las 5 cuentas propias (de `resumen.cuentas`, grupo "Nuestras cuentas").
 - `patrones`: 4–6 `{titulo, texto}` con lo que se repite en las destacadas.
 - `ideas`: `{"Athletum": [...], "Juve Miami": [...], "Juventus Camps": [...]}`, 2–4 ideas cada una.
