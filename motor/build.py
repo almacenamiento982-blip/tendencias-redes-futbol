@@ -132,9 +132,10 @@ def cuerpo(d, l, otras):
   <ul>{met}</ul>{('<p class="eyebrow">' + T('Ediciones anteriores', 'Past editions') + '</p><ul>' + arch + '</ul>') if arch else ''}</details></section>'''
     nav = [('resumen', T('Resumen', 'Summary')), ('tendencias', T('Tendencias', 'Trends'))]
     if s3: nav.append(('hashtags', 'Hashtags'))
-    if s4: nav.append(('nuestras', T('Nuestras cuentas', 'Our accounts')))
     navh = ''.join(f'<a href="#{l}-{a}">{b}</a>' for a, b in nav)
-    return f'<nav><div class="in">{navh}</div></nav><main>{s1}{s2}{s3}{s4}{s5}</main>'
+    s4 = ''  # 15-11 (David): sin 'Cómo van nuestras cuentas'
+    arch_pie = (f'<section class="arch"><span>' + T('Ediciones anteriores', 'Past editions') + ':</span> ' + ' · '.join(f'<a href="{E(h)}?lang={l}">{E(t)}</a>' for t, h in otras) + '</section>') if otras else ''
+    return f'<nav><div class="in">{navh}</div></nav><main>{s1}{s2}{s3}{arch_pie}</main>'
 
 def cabecera(d, l):
     es = l == 'es'
@@ -213,7 +214,7 @@ h3{font-size:17px;font-weight:700;margin:0;line-height:1.25}
 .nus{display:grid;gap:0;padding:6px 18px}
 .nu{display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--linea);flex-wrap:wrap}.nu:last-child{border-bottom:0}
 .nu-c{font-weight:700}.nu-e{font-size:13.5px;color:var(--suave)}.nu-arriba{color:var(--acento)}
-.det summary{cursor:pointer;font-weight:700}.det ul{color:var(--suave);font-size:13.5px}.det .eyebrow{margin-top:10px}
+.arch{margin-top:36px;font-size:13px;color:var(--suave)}.arch a{color:var(--suave)}.det summary{cursor:pointer;font-weight:700}.det ul{color:var(--suave);font-size:13.5px}.det .eyebrow{margin-top:10px}
 footer{max-width:1180px;margin:0 auto;padding:0 16px 40px;color:var(--suave);font-size:12.5px}
 [data-l]{display:none}html[lang=es] [data-l=es],html[lang=en] [data-l=en]{display:block}
 @media (max-width:820px){.tend-body{grid-template-columns:1fr}.top{flex-direction:column-reverse}.idioma{align-self:flex-end}}

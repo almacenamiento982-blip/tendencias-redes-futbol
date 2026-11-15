@@ -22,11 +22,10 @@ Lo sigue la rutina programada de Claude cada lunes (después de la lectura de la
   - `ejemplos`: 1–2 `{cuenta, enlace}` con el enlace exacto de la publicación de `resumen.destacadas` (la página muestra la vista previa oficial de Instagram).
   - `replicar`: 1–3 `{cuenta, es, en}` con `cuenta` exactamente "Athletum", "Juve Miami" o "Juventus Camps" y una idea concreta y corta para esa cuenta. Entre todas las tendencias, que cada una de las 3 cuentas tenga al menos 1 idea.
 - `hashtags`: `nota` (1 frase) + `filas` [{hashtag, desc{es,en} (qué es, corto; si no es de fútbol: "Tema general, no de fútbol"), vistas (número), curva (copiar tal cual de la lectura)}]. Desde el lector llegan los primeros puestos del top general de TikTok EE. UU.
-- `nuestras`: `nota` + `filas` [{cuenta, nivel ("arriba" | "abajo" | "igual"), estado{es,en}}] para las 5 cuentas propias (de `resumen.cuentas`, grupo "Nuestras cuentas"): una frase corta, sin cifras raras ("Por encima de lo normal: …", "Sin publicaciones esta semana").
-- `metodo`: 2–3 frases (fuentes, cuántas cuentas y publicaciones, qué significa "veces más de lo normal", "se actualiza cada lunes de forma automática"). Va plegado al final.
+- No incluir `nuestras` ni `metodo` (David, 15-11: se omiten de la página).
 
 ## Reglas de redacción (obligatorias)
-- Claro y corto: el lector debe entender en 1 minuto qué está de moda y qué hacer. Sin tablas largas ni detalles técnicos fuera de `metodo`.
+- Claro y corto: el lector debe entender en 1 minuto qué está de moda y qué hacer. Sin tablas largas ni detalles técnicos.
 - Impersonal ("se propone", "conviene"), sin "yo", sin hablarle al lector, sin mencionar a Claude ni a ChatGPT.
 - Sin veredictos tajantes ("hay que", "no se recomienda"): ideas y puntos a considerar.
 - Español neutro e inglés natural; la versión EN sin palabras en español.
