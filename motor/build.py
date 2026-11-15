@@ -56,7 +56,7 @@ def vistas_cortas(v, l):
     except ValueError:
         return str(v)
     if n >= 1e9: s = f'{n / 1e9:.1f} B' if l == 'en' else f'{n / 1e9:.1f} mil M'
-    elif n >= 1e6: s = f'{n / 1e6:.0f} M'
+    elif n >= 1e6: s = f'{n / 1e6:.1f}'.rstrip('0').rstrip('.') + ' M'
     elif n >= 1e3: s = f'{n / 1e3:.0f} K' if l == 'en' else f'{n / 1e3:.0f} mil'
     else: s = f'{n:.0f}'
     return s.replace('.', ',') if l == 'es' else s
