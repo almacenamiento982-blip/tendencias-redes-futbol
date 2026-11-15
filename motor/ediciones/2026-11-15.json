@@ -1,77 +1,169 @@
 {
  "numero": 2,
  "fecha": "2026-11-15",
- "auto": true,
  "fecha_texto": {
-  "es": "15 de noviembre de 2026",
-  "en": "November 15, 2026"
+  "es": "15 de noviembre",
+  "en": "November 15"
  },
- "intro": {
-  "es": "Qué está funcionando esta semana en redes alrededor del fútbol, para aplicarlo en Athletum, Juve Miami y Juventus Camps.",
-  "en": "What is working this week on social media around soccer, to apply at Athletum, Juve Miami and Juventus Camps."
+ "actualizado": "2026-11-15T07:15:06Z",
+ "auto": true,
+ "resumen": {
+  "es": "Esta semana lo que más funcionó fueron los momentos reales en video corto (goles, finales), los anuncios con fechas y sedes y las historias de jugadores que llegan a un club profesional.",
+  "en": "This week what worked best were real moments in short video (goals, finals), announcements with dates and venues, and stories of players reaching a pro club."
  },
- "kpis": [
+ "tendencias": [
   {
-   "valor": "14,3×",
-   "es": "lo normal de su cuenta: una recopilación de goles de entrenamiento (Inter Miami)",
-   "en": "the account's usual: a training-goals compilation (Inter Miami)"
+   "titulo": {
+    "es": "Momentos reales en video corto",
+    "en": "Real moments in short video"
+   },
+   "origen": "instagram",
+   "que_es": {
+    "es": "Goles de entrenamiento, el final de un partido o una celebración, en un reel corto con lo mejor al inicio.",
+    "en": "Training goals, the end of a match or a celebration, in a short reel with the best part first."
+   },
+   "dato": {
+    "es": "Un reel de goles de entrenamiento de Inter Miami tuvo 14 veces más me gusta de lo normal; el cierre de la final de MLS NEXT Pro, casi 7 veces más.",
+    "en": "An Inter Miami training-goals reel got 14 times more likes than usual; the end of the MLS NEXT Pro final, almost 7 times more."
+   },
+   "ejemplos": [
+    {
+     "cuenta": "intermiamicf",
+     "enlace": "https://www.instagram.com/reel/DfqCMcRsWF2/"
+    },
+    {
+     "cuenta": "mlsnextpro",
+     "enlace": "https://www.instagram.com/reel/DfgLfhDRMvp/"
+    }
+   ],
+   "replicar": [
+    {
+     "cuenta": "Athletum",
+     "es": "Reel de 15 segundos con los mejores goles del entrenamiento de la semana.",
+     "en": "15-second reel with the week's best training goals."
+    },
+    {
+     "cuenta": "Juve Miami",
+     "es": "La mejor jugada o la celebración del fin de semana en un reel corto.",
+     "en": "The weekend's best play or celebration in a short reel."
+    }
+   ]
   },
   {
-   "valor": "6,8×",
-   "es": "lo normal de su cuenta: los últimos momentos de la final de MLS NEXT Pro",
-   "en": "the account's usual: the final moments of the MLS NEXT Pro final"
+   "titulo": {
+    "es": "Anuncio con fechas y sedes",
+    "en": "Announcement with dates and venues"
+   },
+   "origen": "instagram",
+   "que_es": {
+    "es": "Una imagen o carrusel claro con las fechas, las ciudades y cómo inscribirse para el próximo año.",
+    "en": "A clear image or carousel with dates, cities and how to sign up for next year."
+   },
+   "dato": {
+    "es": "El anuncio de fechas y sedes 2027 de un torneo de US Youth Soccer tuvo 6 veces más me gusta de lo normal; las preguntas y respuestas de inscripción de Barça Academy US, 3 veces más.",
+    "en": "US Youth Soccer's 2027 dates-and-venues announcement got 6 times more likes than usual; Barça Academy US's registration Q&A, 3 times more."
+   },
+   "ejemplos": [
+    {
+     "cuenta": "usyouthsoccer",
+     "enlace": "https://www.instagram.com/p/DfkbVfIJnzD/"
+    },
+    {
+     "cuenta": "barcaacademyus",
+     "enlace": "https://www.instagram.com/p/Dfm2U-sAHlw/"
+    }
+   ],
+   "replicar": [
+    {
+     "cuenta": "Juventus Camps",
+     "es": "Carrusel con ciudades y fechas 2027 y un \"¿quién puede venir?\" en preguntas y respuestas.",
+     "en": "Carousel with 2027 cities and dates plus a \"who can join?\" Q&A."
+    },
+    {
+     "cuenta": "Athletum",
+     "es": "Imagen clara con las fechas de las próximas pruebas (tryouts).",
+     "en": "Clear image with the dates of the next tryouts."
+    }
+   ]
   },
   {
-   "valor": "6,3×",
-   "es": "lo normal de su cuenta: el anuncio de fechas y sedes de un torneo 2027 (US Youth Soccer)",
-   "en": "the account's usual: the dates-and-venues announcement of a 2027 tournament (US Youth Soccer)"
+   "titulo": {
+    "es": "Del camp o la academia al club profesional",
+    "en": "From camp or academy to a pro club"
+   },
+   "origen": "instagram",
+   "que_es": {
+    "es": "La historia de un jugador que pasó por el programa y hoy entrena o debuta en un club profesional.",
+    "en": "The story of a player who went through the program and now trains or debuts at a pro club."
+   },
+   "dato": {
+    "es": "Un camper que llegó a entrenar en España tuvo 3 veces más me gusta de lo normal (Real Madrid Foundation); el debut de un exalumno, 2 veces más (Bayern).",
+    "en": "A camper who went on to train in Spain got 3 times more likes than usual (Real Madrid Foundation); an alumnus debut, 2 times more (Bayern)."
+   },
+   "ejemplos": [
+    {
+     "cuenta": "rmfclinicsusa",
+     "enlace": "https://www.instagram.com/reel/DfpgnetxdGK/"
+    },
+    {
+     "cuenta": "fcbayernpathway",
+     "enlace": "https://www.instagram.com/p/DfsB6VaEQva/"
+    }
+   ],
+   "replicar": [
+    {
+     "cuenta": "Juventus Camps",
+     "es": "Historia de un jugador seleccionado que viajó a Italia: de dónde salió y qué vivió.",
+     "en": "Story of a selected player who traveled to Italy: where they came from and what they lived."
+    },
+    {
+     "cuenta": "Athletum",
+     "es": "Exjugadores del club que hoy juegan en universidad o como profesionales.",
+     "en": "Former club players now playing in college or professionally."
+    }
+   ]
   },
   {
-   "valor": "1,0×",
-   "es": "mediana de los carruseles, frente a 0,9× en reels y 0,65× en imágenes (211 publicaciones)",
-   "en": "median for carousels, vs 0.9× for reels and 0.65× for images (211 posts)"
+   "titulo": {
+    "es": "Homenaje con gesto de equipo",
+    "en": "Team-gesture tribute"
+   },
+   "origen": "instagram",
+   "que_es": {
+    "es": "Todo el equipo hace el mismo gesto (por ejemplo, la misma camiseta) para homenajear a alguien.",
+    "en": "The whole team makes the same gesture (for example, the same shirt) to honor someone."
+   },
+   "dato": {
+    "es": "El homenaje de una selección a su estrella retirada tuvo 6 veces más me gusta de lo normal (B/R Football).",
+    "en": "A national team's tribute to its retired star got 6 times more likes than usual (B/R Football)."
+   },
+   "ejemplos": [
+    {
+     "cuenta": "brfootball",
+     "enlace": "https://www.instagram.com/p/DfvBdH9muYX/"
+    }
+   ],
+   "replicar": [
+    {
+     "cuenta": "Juve Miami",
+     "es": "Día de partido de la Juventus: toda la academia con la camiseta.",
+     "en": "Juventus match day: the whole academy in the jersey."
+    }
+   ]
   }
  ],
- "hallazgos": [
-  {
-   "es": "<b>Las publicaciones que más superaron lo normal fueron momentos de partido o de entrenamiento en video corto</b>: recopilación de goles (14,3×) y cierre de una final (6,8×).",
-   "en": "<b>The posts that most exceeded the usual were short-video match or training moments</b>: a goals compilation (14.3×) and the close of a final (6.8×)."
-  },
-  {
-   "es": "<b>Los anuncios con fechas y sedes siguen funcionando</b>: el de un torneo nacional 2027 hizo 6,3× lo normal, y el de inscripciones de Barça Academy US 3,1×.",
-   "en": "<b>Announcements with dates and venues keep working</b>: a 2027 national tournament announcement did 6.3× its usual, and Barça Academy US's registration post 3.1×."
-  },
-  {
-   "es": "<b>Las selecciones y sus estrellas dominan la conversación general</b>: el homenaje a una figura retirada (6,1×) y las derrotas de selecciones grandes fueron lo más destacado en las cuentas de fútbol global.",
-   "en": "<b>National teams and their stars dominate the general conversation</b>: the tribute to a retired star (6.1×) and big national teams' defeats led the global soccer accounts."
-  },
-  {
-   "es": "<b>Las historias de exalumnos y campers que llegan a un club profesional</b> aparecen en Bayern Pathway (2,3×) y en un camp de Real Madrid en EE. UU. (2,9×).",
-   "en": "<b>Stories of alumni and campers reaching a professional club</b> show up at Bayern Pathway (2.3×) and at a Real Madrid camp in the U.S. (2.9×)."
-  },
-  {
-   "es": "<b>En las cuentas propias</b> la mejor publicación de la semana fue una foto de Athletum (1,4× lo normal); las demás estuvieron por debajo de su mediana.",
-   "en": "<b>On the own accounts</b> the best post of the week was an Athletum photo (1.4× usual); the others were below their median."
-  }
- ],
- "tiktok": {
-  "titulo": {
-   "es": "TikTok: top general de EE. UU.",
-   "en": "TikTok: U.S. overall top"
-  },
-  "fuente": {
-   "es": "Fuente: TikTok Creative Center, Estados Unidos, últimos 7 días, top general (primeros puestos, sin sesión). Vistas = vistas de los videos con ese hashtag en la semana.",
-   "en": "Source: TikTok Creative Center, United States, last 7 days, overall top (first ranks, no login). Views = views of videos with that hashtag during the week."
+ "hashtags": {
+  "nota": {
+   "es": "Top general de TikTok en EE. UU. esta semana (sin fútbol entre los primeros puestos). La línea muestra cómo subió en los últimos 7 días; toca uno para ver sus videos.",
+   "en": "TikTok U.S. overall top this week (no soccer among the top spots). The line shows how it rose over the last 7 days; tap one to see its videos."
   },
   "filas": [
    {
-    "puesto": 1,
     "hashtag": "#veteransday",
     "desc": {
      "es": "Día de los Veteranos en EE. UU.",
      "en": "U.S. Veterans Day"
     },
-    "videos": "76,713",
     "vistas": "126.5M",
     "curva": [
      0,
@@ -84,13 +176,11 @@
     ]
    },
    {
-    "puesto": 2,
     "hashtag": "#mymoonmyman",
     "desc": {
      "es": "Tema general, no de fútbol",
      "en": "General topic, not soccer"
     },
-    "videos": "30,601",
     "vistas": "62.1M",
     "curva": [
      0,
@@ -103,13 +193,11 @@
     ]
    },
    {
-    "puesto": 3,
     "hashtag": "#lamansionvip",
     "desc": {
      "es": "Tema general, no de fútbol",
      "en": "General topic, not soccer"
     },
-    "videos": "46,713",
     "vistas": "545.1M",
     "curva": [
      0,
@@ -121,317 +209,68 @@
      100
     ]
    }
-  ],
-  "nota_final": {
-   "es": "Esta semana solo se leyeron los primeros puestos del top general, sin fútbol entre ellos. El top 100 de deportes (donde aparece el fútbol) se suma cuando se lee con sesión de TikTok.",
-   "en": "This week only the first ranks of the overall top were read, with no soccer among them. The sports top 100 (where soccer appears) is added when read with a TikTok login."
-  }
- },
- "instagram": {
-  "titulo": {
-   "es": "Instagram: publicaciones que superaron lo normal",
-   "en": "Instagram: posts that beat the usual"
-  },
-  "nota": {
-   "es": "Cuentas de academias, camps, fútbol juvenil y fútbol global, del 8 al 15 de noviembre. \"Veces lo normal\" = me gusta de la publicación ÷ mediana de me gusta de esa cuenta. Son datos públicos (me gusta y comentarios); las vistas de reels de otras cuentas no están disponibles.",
-   "en": "Academy, camp, youth soccer and global soccer accounts, November 8–15. \"Times usual\" = the post's likes ÷ that account's median likes. These are public data (likes and comments); reel views from other accounts are not available."
-  },
-  "filas": [
-   {
-    "cuenta": "intermiamicf",
-    "que": {
-     "es": "Recopilación de goles de entrenamiento del primer equipo",
-     "en": "Compilation of first-team training goals"
-    },
-    "formato": {
-     "es": "Reel",
-     "en": "Reel"
-    },
-    "veces": 14.3,
-    "enlace": "https://www.instagram.com/reel/DfqCMcRsWF2/"
-   },
-   {
-    "cuenta": "mlsnextpro",
-    "que": {
-     "es": "Últimos momentos de la final de la copa, con relato de un aficionado",
-     "en": "Final moments of the cup final, with a fan's commentary"
-    },
-    "formato": {
-     "es": "Reel",
-     "en": "Reel"
-    },
-    "veces": 6.8,
-    "enlace": "https://www.instagram.com/reel/DfgLfhDRMvp/"
-   },
-   {
-    "cuenta": "usyouthsoccer",
-    "que": {
-     "es": "Anuncio de fechas y sedes de un torneo nacional de 2027",
-     "en": "Announcement of dates and venues for a 2027 national tournament"
-    },
-    "formato": {
-     "es": "Imagen",
-     "en": "Image"
-    },
-    "veces": 6.3,
-    "enlace": "https://www.instagram.com/p/DfkbVfIJnzD/"
-   },
-   {
-    "cuenta": "brfootball",
-    "que": {
-     "es": "Selección que rinde homenaje a su estrella retirada con su camiseta en todo el equipo",
-     "en": "National team paying tribute to its retired star with his shirt on every player"
-    },
-    "formato": {
-     "es": "Carrusel",
-     "en": "Carousel"
-    },
-    "veces": 6.1,
-    "enlace": "https://www.instagram.com/p/DfvBdH9muYX/"
-   },
-   {
-    "cuenta": "ecnlgirls",
-    "que": {
-     "es": "Fotos de un evento de exhibición de talento en una ciudad",
-     "en": "Photos from a talent showcase event in one city"
-    },
-    "formato": {
-     "es": "Carrusel",
-     "en": "Carousel"
-    },
-    "veces": 4.8,
-    "enlace": "https://www.instagram.com/p/Dfu3Jd-m7zt/"
-   },
-   {
-    "cuenta": "barcaacademyus",
-    "que": {
-     "es": "Preguntas y respuestas: quién puede entrar a los camps y apertura de inscripciones 2027",
-     "en": "Q&A: who can join the camps and 2027 registration opening"
-    },
-    "formato": {
-     "es": "Carrusel",
-     "en": "Carousel"
-    },
-    "veces": 3.1,
-    "enlace": "https://www.instagram.com/p/Dfm2U-sAHlw/"
-   },
-   {
-    "cuenta": "benficacampus",
-    "que": {
-     "es": "Doblete de un jugador del club, con video de TV",
-     "en": "Brace by a club player, with TV footage"
-    },
-    "formato": {
-     "es": "Reel",
-     "en": "Reel"
-    },
-    "veces": 3.1,
-    "enlace": "https://www.instagram.com/reel/DffZ8V2j4KB/"
-   },
-   {
-    "cuenta": "rmfclinicsusa",
-    "que": {
-     "es": "Historia de una niña o niño de un camp en EE. UU. que llega a entrenar en España",
-     "en": "Story of a camper from a U.S. camp who ends up training in Spain"
-    },
-    "formato": {
-     "es": "Reel",
-     "en": "Reel"
-    },
-    "veces": 2.9,
-    "enlace": "https://www.instagram.com/reel/DfpgnetxdGK/"
-   },
-   {
-    "cuenta": "fcbayernpathway",
-    "que": {
-     "es": "Debut profesional de un exalumno del programa internacional",
-     "en": "Professional debut of an alumnus of the international program"
-    },
-    "formato": {
-     "es": "Carrusel",
-     "en": "Carousel"
-    },
-    "veces": 2.3,
-    "enlace": "https://www.instagram.com/p/DfsB6VaEQva/"
-   },
-   {
-    "cuenta": "ecnlboys",
-    "que": {
-     "es": "Lista de equipos de un evento, para deslizar y ver",
-     "en": "Event team lineup, swipe to see"
-    },
-    "formato": {
-     "es": "Carrusel",
-     "en": "Carousel"
-    },
-    "veces": 2.2,
-    "enlace": "https://www.instagram.com/p/DflW-6cl50S/"
-   }
   ]
  },
  "nuestras": {
   "nota": {
-   "es": "Las 5 cuentas propias, ventana del 8 al 15 de noviembre. \"Mediana\" = mediana de me gusta de la cuenta; \"posts\" = publicaciones de la semana.",
-   "en": "The 5 own accounts, window November 8–15. \"Median\" = the account's median likes; \"posts\" = posts this week."
+   "es": "Su mejor publicación de la semana comparada con lo normal de cada cuenta.",
+   "en": "Each account's best post of the week compared with its usual."
   },
   "filas": [
    {
-    "cuenta": "@athletum_fc",
-    "seguidores": "517",
-    "posts": 3,
-    "mediana": 118,
-    "mejor": {
-     "es": "Foto del día con 161 me gusta (1,4× lo normal); también un reel interactivo de pausar el video",
-     "en": "Photo of the day with 161 likes (1.4× usual); also an interactive pause-the-video reel"
+    "cuenta": "athletum_fc",
+    "nivel": "arriba",
+    "estado": {
+     "es": "Por encima de lo normal: una foto del día y un reel de \"pausa el video\" que generó comentarios",
+     "en": "Above usual: a photo of the day and a \"pause the video\" reel that drove comments"
     }
    },
    {
-    "cuenta": "@juventusacademymiami",
-    "seguidores": "27,904",
-    "posts": 1,
-    "mediana": 240,
-    "mejor": {
-     "es": "Carrusel con 180 me gusta (0,8× lo normal)",
-     "en": "Carousel with 180 likes (0.8× usual)"
+    "cuenta": "juventusacademymiami",
+    "nivel": "abajo",
+    "estado": {
+     "es": "Un poco por debajo de lo normal (1 publicación)",
+     "en": "Slightly below usual (1 post)"
     }
    },
    {
-    "cuenta": "@juventuscampsusa",
-    "seguidores": "10,653",
-    "posts": 4,
-    "mediana": 38.5,
-    "mejor": {
-     "es": "Carrusel con 19 me gusta (0,5× lo normal); 4 publicaciones",
-     "en": "Carousel with 19 likes (0.5× usual); 4 posts"
+    "cuenta": "juventuscampsusa",
+    "nivel": "abajo",
+    "estado": {
+     "es": "Por debajo de lo normal (4 publicaciones)",
+     "en": "Below usual (4 posts)"
     }
    },
    {
-    "cuenta": "@jacademylasvegas",
-    "seguidores": "2,491",
-    "posts": 0,
-    "mediana": 36.5,
-    "mejor": {
+    "cuenta": "jacademylasvegas",
+    "nivel": "igual",
+    "estado": {
      "es": "Sin publicaciones esta semana",
      "en": "No posts this week"
     }
    },
    {
-    "cuenta": "@juventuscampsmx",
-    "seguidores": "3,233",
-    "posts": 1,
-    "mediana": 38,
-    "mejor": {
-     "es": "Reel con 15 me gusta (0,4× lo normal)",
-     "en": "Reel with 15 likes (0.4× usual)"
+    "cuenta": "juventuscampsmx",
+    "nivel": "abajo",
+    "estado": {
+     "es": "Por debajo de lo normal (1 publicación)",
+     "en": "Below usual (1 post)"
     }
-   }
-  ]
- },
- "patrones": [
-  {
-   "titulo": {
-    "es": "1. Momento de partido en video corto",
-    "en": "1. Short-video match moment"
-   },
-   "texto": {
-    "es": "Goles, cierres de final, jugadas de entrenamiento. El momento principal va al inicio.",
-    "en": "Goals, final moments, training plays. The key moment goes first."
-   }
-  },
-  {
-   "titulo": {
-    "es": "2. Anuncio con fechas o sedes",
-    "en": "2. Announcement with dates or venues"
-   },
-   "texto": {
-    "es": "Torneos, ciudades o inscripciones del año próximo, en imagen o carrusel claro.",
-    "en": "Next year's tournaments, cities or registration, in a clear image or carousel."
-   }
-  },
-  {
-   "titulo": {
-    "es": "3. Homenaje o hito de una figura",
-    "en": "3. Tribute or milestone of a figure"
-   },
-   "texto": {
-    "es": "Un gesto colectivo (todo el equipo con la misma camiseta) o un récord personal se comparte mucho.",
-    "en": "A collective gesture (the whole team in the same shirt) or a personal record gets shared a lot."
-   }
-  },
-  {
-   "titulo": {
-    "es": "4. Recorrido del jugador al club profesional",
-    "en": "4. Player path to the pro club"
-   },
-   "texto": {
-    "es": "Debuts de exalumnos y campers que viajan a entrenar a Europa.",
-    "en": "Alumni debuts and campers who travel to train in Europe."
-   }
-  },
-  {
-   "titulo": {
-    "es": "5. Pregunta o juego interactivo",
-    "en": "5. Question or interactive game"
-   },
-   "texto": {
-    "es": "Retos de pausar el video o adivinar; invitan a comentar. Ya se probó uno en Athletum esta semana.",
-    "en": "Pause-the-video or guessing challenges invite comments. One was already tried at Athletum this week."
-   }
-  }
- ],
- "ideas": {
-  "Athletum": [
-   {
-    "es": "Recopilación de goles de entrenamiento de la semana, con el mejor al inicio.",
-    "en": "Weekly training-goals compilation, best one first."
-   },
-   {
-    "es": "Repetir el reto de pausar el video, que ya generó interacción.",
-    "en": "Repeat the pause-the-video challenge, which already drew engagement."
-   },
-   {
-    "es": "Anunciar fechas de los próximos eventos o pruebas en una imagen clara.",
-    "en": "Announce dates of upcoming events or tryouts in a clear image."
-   }
-  ],
-  "Juve Miami": [
-   {
-    "es": "Cierre de partido o mejor jugada del fin de semana en reel corto.",
-    "en": "Match close or best play of the weekend as a short reel."
-   },
-   {
-    "es": "Día de partido de la Juventus con la comunidad de la academia.",
-    "en": "Juventus match day with the academy community."
-   }
-  ],
-  "Juventus Camps": [
-   {
-    "es": "Anuncio de fechas y sedes de los camps 2027 en carrusel, con las inscripciones.",
-    "en": "Announcement of 2027 camp dates and venues as a carousel, with registration."
-   },
-   {
-    "es": "Historia de un camper que viaja a Italia, describiendo el recorrido.",
-    "en": "Story of a camper traveling to Italy, describing the journey."
-   },
-   {
-    "es": "Preguntas y respuestas \"¿quién puede venir?\" en carrusel, como el de Barça Academy US.",
-    "en": "\"Who can join?\" Q&A as a carousel, like Barça Academy US's."
    }
   ]
  },
  "metodo": [
   {
-   "es": "<b>TikTok:</b> Creative Center, Estados Unidos, últimos 7 días, solo primeros puestos del top general en esta lectura.",
-   "en": "<b>TikTok:</b> Creative Center, United States, last 7 days, only the first ranks of the overall top in this read."
+   "es": "Instagram: 25 cuentas por la conexión oficial de Meta (academias de clubes, fútbol juvenil de EE. UU., fútbol global y las nuestras), 211 publicaciones del 8 al 15 de noviembre. \"Veces más de lo normal\" compara los me gusta de una publicación con lo habitual de su cuenta; las vistas de reels de otras cuentas no están disponibles.",
+   "en": "Instagram: 25 accounts through the official Meta connection (club academies, U.S. youth soccer, global soccer and ours), 211 posts from November 8 to 15. \"Times more than usual\" compares a post's likes with its account's usual; reel views from other accounts are not available."
   },
   {
-   "es": "<b>Instagram:</b> publicaciones públicas de 25 cuentas (academias, camps, fútbol juvenil, fútbol global y cuentas propias), 211 publicaciones del 8 al 15 de noviembre. Lectura del 15 de noviembre.",
-   "en": "<b>Instagram:</b> public posts from 25 accounts (academies, camps, youth soccer, global soccer and own accounts), 211 posts from November 8–15. Read on November 15."
+   "es": "TikTok: Creative Center, Estados Unidos, últimos 7 días; la lectura automática trae los primeros puestos del top general.",
+   "en": "TikTok: Creative Center, United States, last 7 days; the automatic read brings the top spots of the overall ranking."
   },
   {
-   "es": "<b>Frecuencia:</b> se actualiza cada lunes de forma automática.",
-   "en": "<b>Frequency:</b> updated automatically every Monday."
+   "es": "Se actualiza cada lunes de forma automática.",
+   "en": "Updated automatically every Monday."
   }
- ],
- "actualizado": "2026-11-15T07:15:06Z"
+ ]
 }
