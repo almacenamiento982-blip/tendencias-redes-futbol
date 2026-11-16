@@ -1,15 +1,15 @@
 {
  "numero": 2,
- "fecha": "2026-11-15",
+ "fecha": "2026-11-16",
  "fecha_texto": {
-  "es": "15 de noviembre",
-  "en": "November 15"
+  "es": "16 de noviembre",
+  "en": "November 16"
  },
- "actualizado": "2026-11-15T07:15:06Z",
+ "actualizado": "2026-11-16T12:31:52Z",
  "auto": true,
  "resumen": {
-  "es": "Esta semana lo que más funcionó fueron los momentos reales en video corto (goles, finales), los anuncios con fechas y sedes y las historias de jugadores que llegan a un club profesional.",
-  "en": "This week what worked best were real moments in short video (goals, finals), announcements with dates and venues, and stories of players reaching a pro club."
+  "es": "Esta semana lo que más funcionó fueron los momentos reales en video corto, los anuncios con fechas y sedes, las historias de jugadores que llegan a un club profesional y las preguntas al público en reels.",
+  "en": "This week what worked best were real moments in short video, announcements with dates and venues, stories of players reaching a pro club and audience questions in reels."
  },
  "tendencias": [
   {
@@ -23,23 +23,23 @@
     "en": "Training goals, the end of a match or a celebration, in a short reel with the best part first."
    },
    "dato": {
-    "es": "Un reel de goles de entrenamiento de Inter Miami tuvo 14 veces más me gusta de lo normal; el cierre de la final de MLS NEXT Pro, casi 7 veces más.",
-    "en": "An Inter Miami training-goals reel got 14 times more likes than usual; the end of the MLS NEXT Pro final, almost 7 times more."
+    "es": "Un reel de goles de entrenamiento de Inter Miami tuvo 13 veces más me gusta de lo normal; el cierre de la final de MLS NEXT Pro, casi 7 veces más.",
+    "en": "An Inter Miami training-goals reel got 13 times more likes than usual; the end of the MLS NEXT Pro final, almost 7 times more."
    },
    "ejemplos": [
     {
      "cuenta": "intermiamicf",
      "enlace": "https://www.instagram.com/reel/DfqCMcRsWF2/",
-     "likes": 490173,
-     "comentarios": 1779,
-     "vistas": 10399407
+     "likes": 495700,
+     "comentarios": 1798,
+     "vistas": 10567511
     },
     {
      "cuenta": "mlsnextpro",
      "enlace": "https://www.instagram.com/reel/DfgLfhDRMvp/",
-     "likes": 3348,
+     "likes": 3352,
      "comentarios": 45,
-     "vistas": 54682
+     "vistas": 54779
     }
    ],
    "replicar": [
@@ -66,21 +66,21 @@
     "en": "A clear image or carousel with dates, cities and how to sign up for next year."
    },
    "dato": {
-    "es": "El anuncio de fechas y sedes 2027 de un torneo de US Youth Soccer tuvo 6 veces más me gusta de lo normal; las preguntas y respuestas de inscripción de Barça Academy US, 3 veces más.",
-    "en": "US Youth Soccer's 2027 dates-and-venues announcement got 6 times more likes than usual; Barça Academy US's registration Q&A, 3 times more."
+    "es": "El anuncio de fechas y sedes 2027 de un torneo de US Youth Soccer tuvo 6 veces más me gusta de lo normal; las preguntas y respuestas de inscripción de Barça Academy US, casi 4 veces más.",
+    "en": "US Youth Soccer's 2027 dates-and-venues announcement got 6 times more likes than usual; Barça Academy US's registration Q&A, almost 4 times more."
    },
    "ejemplos": [
     {
      "cuenta": "usyouthsoccer",
      "enlace": "https://www.instagram.com/p/DfkbVfIJnzD/",
-     "likes": 2048,
+     "likes": 2086,
      "comentarios": 3
     },
     {
      "cuenta": "barcaacademyus",
      "enlace": "https://www.instagram.com/p/Dfm2U-sAHlw/",
-     "likes": 836,
-     "comentarios": 25
+     "likes": 884,
+     "comentarios": 26
     }
    ],
    "replicar": [
@@ -107,8 +107,8 @@
     "en": "The story of a player who went through the program and now trains or debuts at a pro club."
    },
    "dato": {
-    "es": "Un camper que llegó a entrenar en España tuvo 3 veces más me gusta de lo normal (Real Madrid Foundation); el debut de un exalumno, 2 veces más (Bayern).",
-    "en": "A camper who went on to train in Spain got 3 times more likes than usual (Real Madrid Foundation); an alumnus debut, 2 times more (Bayern)."
+    "es": "Un camper que llegó a entrenar en España tuvo 3 veces más me gusta de lo normal (Real Madrid Foundation); el debut de un exalumno, 2 veces y media más (Bayern).",
+    "en": "A camper who went on to train in Spain got 3 times more likes than usual (Real Madrid Foundation); an alumnus debut, 2.5 times more (Bayern)."
    },
    "ejemplos": [
     {
@@ -116,25 +116,68 @@
      "enlace": "https://www.instagram.com/reel/DfpgnetxdGK/",
      "likes": 104,
      "comentarios": 0,
-     "vistas": 4715
+     "vistas": 4801
     },
     {
      "cuenta": "fcbayernpathway",
      "enlace": "https://www.instagram.com/p/DfsB6VaEQva/",
-     "likes": 5166,
+     "likes": 5364,
      "comentarios": 32
     }
    ],
    "replicar": [
     {
      "cuenta": "Juventus Camps",
-     "es": "Historia de un jugador seleccionado que viajó a Italia: de dónde salió y qué vivió.",
-     "en": "Story of a selected player who traveled to Italy: where they came from and what they lived."
+     "es": "Historia de un jugador seleccionado que viajó a Italia: de dónde salió y qué vivió, con autorización de las familias.",
+     "en": "Story of a selected player who traveled to Italy: where they came from and what they lived, with the families' authorization."
     },
     {
      "cuenta": "Athletum",
      "es": "Exjugadores del club que hoy juegan en universidad o como profesionales.",
      "en": "Former club players now playing in college or professionally."
+    }
+   ]
+  },
+  {
+   "titulo": {
+    "es": "Pregunta al público",
+    "en": "Question to the audience"
+   },
+   "origen": "instagram",
+   "que_es": {
+    "es": "Un reel corto que termina con una pregunta o un juego para que la gente responda en los comentarios.",
+    "en": "A short reel that ends with a question or a game so people answer in the comments."
+   },
+   "dato": {
+    "es": "Un reel de ECNL Girls preguntando qué opinan de las nuevas reglas tuvo 4 veces más me gusta de lo normal; el de \"adivina la posición\", casi 3 veces más.",
+    "en": "An ECNL Girls reel asking what people think of the new rules got 4 times more likes than usual; the \"guess the position\" one, almost 3 times more."
+   },
+   "ejemplos": [
+    {
+     "cuenta": "ecnlgirls",
+     "enlace": "https://www.instagram.com/reel/DfxYGlCPxr5/",
+     "likes": 4187,
+     "comentarios": 13,
+     "vistas": 150036
+    },
+    {
+     "cuenta": "ecnlgirls",
+     "enlace": "https://www.instagram.com/reel/DfxRNCavDLf/",
+     "likes": 2512,
+     "comentarios": 4,
+     "vistas": 116141
+    }
+   ],
+   "replicar": [
+    {
+     "cuenta": "Juve Miami",
+     "es": "Reel de una jugada con la pregunta \"¿qué posición es?\" para que las familias respondan.",
+     "en": "Reel of a play with the question \"which position is it?\" for families to answer."
+    },
+    {
+     "cuenta": "Athletum",
+     "es": "Video corto de un ejercicio con \"¿pasa o no pasa?\" en los comentarios.",
+     "en": "Short drill video with \"does it work or not?\" in the comments."
     }
    ]
   },
@@ -149,15 +192,15 @@
     "en": "The whole team makes the same gesture (for example, the same shirt) to honor someone."
    },
    "dato": {
-    "es": "El homenaje de una selección a su estrella retirada tuvo 6 veces más me gusta de lo normal (B/R Football).",
-    "en": "A national team's tribute to its retired star got 6 times more likes than usual (B/R Football)."
+    "es": "El homenaje de una selección a su estrella retirada, con todos los jugadores con su camiseta, tuvo 4 veces más me gusta de lo normal (B/R Football).",
+    "en": "A national team's tribute to its retired star, with every player in his shirt, got 4 times more likes than usual (B/R Football)."
    },
    "ejemplos": [
     {
      "cuenta": "brfootball",
      "enlace": "https://www.instagram.com/p/DfvBdH9muYX/",
-     "likes": 90144,
-     "comentarios": 1223
+     "likes": 91360,
+     "comentarios": 1231
     }
    ],
    "replicar": [
@@ -167,68 +210,6 @@
      "en": "Juventus match day: the whole academy in the jersey."
     }
    ]
-  }
- ],
- "nuestras": {
-  "nota": {
-   "es": "Su mejor publicación de la semana comparada con lo normal de cada cuenta.",
-   "en": "Each account's best post of the week compared with its usual."
-  },
-  "filas": [
-   {
-    "cuenta": "athletum_fc",
-    "nivel": "arriba",
-    "estado": {
-     "es": "Por encima de lo normal: una foto del día y un reel de \"pausa el video\" que generó comentarios",
-     "en": "Above usual: a photo of the day and a \"pause the video\" reel that drove comments"
-    }
-   },
-   {
-    "cuenta": "juventusacademymiami",
-    "nivel": "abajo",
-    "estado": {
-     "es": "Un poco por debajo de lo normal (1 publicación)",
-     "en": "Slightly below usual (1 post)"
-    }
-   },
-   {
-    "cuenta": "juventuscampsusa",
-    "nivel": "abajo",
-    "estado": {
-     "es": "Por debajo de lo normal (4 publicaciones)",
-     "en": "Below usual (4 posts)"
-    }
-   },
-   {
-    "cuenta": "jacademylasvegas",
-    "nivel": "igual",
-    "estado": {
-     "es": "Sin publicaciones esta semana",
-     "en": "No posts this week"
-    }
-   },
-   {
-    "cuenta": "juventuscampsmx",
-    "nivel": "abajo",
-    "estado": {
-     "es": "Por debajo de lo normal (1 publicación)",
-     "en": "Below usual (1 post)"
-    }
-   }
-  ]
- },
- "metodo": [
-  {
-   "es": "Instagram: 25 cuentas por la conexión oficial de Meta (academias de clubes, fútbol juvenil de EE. UU., fútbol global y las nuestras), 211 publicaciones del 8 al 15 de noviembre. \"Veces más de lo normal\" compara los me gusta de una publicación con lo habitual de su cuenta; las vistas de reels de otras cuentas no están disponibles.",
-   "en": "Instagram: 25 accounts through the official Meta connection (club academies, U.S. youth soccer, global soccer and ours), 211 posts from November 8 to 15. \"Times more than usual\" compares a post's likes with its account's usual; reel views from other accounts are not available."
-  },
-  {
-   "es": "TikTok: Creative Center, Estados Unidos, últimos 7 días; la lectura automática trae los primeros puestos del top general.",
-   "en": "TikTok: Creative Center, United States, last 7 days; the automatic read brings the top spots of the overall ranking."
-  },
-  {
-   "es": "Se actualiza cada lunes de forma automática.",
-   "en": "Updated automatically every Monday."
   }
  ],
  "tiktok": {
