@@ -1,117 +1,116 @@
 {
- "numero": 2,
- "fecha": "2026-11-16",
+ "numero": 3,
+ "fecha": "2026-11-23",
  "resumen": {
-  "es": "Esta semana lo que más funcionó fueron los momentos reales en video corto, los anuncios con fechas y sedes, las historias de jugadores que llegan a un club profesional y las preguntas al público en reels.",
-  "en": "This week what worked best were real moments in short video, announcements with dates and venues, stories of players reaching a pro club and audience questions in reels."
+  "es": "Esta semana funcionaron el viaje del camp contado en video, los momentos de hermanos en la cancha, los anuncios de compromisos universitarios, los retos y votaciones, y los anuncios de camps con ciudades.",
+  "en": "This week what worked were camp trips told in video, siblings on the pitch, college-commitment announcements, challenges and polls, and camp announcements with cities."
  },
  "tendencias": [
   {
-   "es": "Momentos reales en video corto",
-   "en": "Real moments in short video"
+   "es": "Viaje del camp a Europa",
+   "en": "Camp trip to Europe"
   },
   {
-   "es": "Anuncio con fechas y sedes",
-   "en": "Announcement with dates and venues"
+   "es": "Hermanos en la misma cancha",
+   "en": "Siblings on the same pitch"
   },
   {
-   "es": "Del camp o la academia al club profesional",
-   "en": "From camp or academy to a pro club"
+   "es": "Compromisos universitarios",
+   "en": "College commitments"
   },
   {
-   "es": "Pregunta al público",
-   "en": "Question to the audience"
+   "es": "Retos y votaciones",
+   "en": "Challenges and polls"
   },
   {
-   "es": "Homenaje con gesto de equipo",
-   "en": "Team-gesture tribute"
+   "es": "Anuncio de camps con ciudades",
+   "en": "Camp announcement with cities"
   }
  ],
  "replicar": {
   "Athletum": [
    {
-    "es": "Reel de 15 segundos con los mejores goles del entrenamiento de la semana.",
-    "en": "15-second reel with the week's best training goals."
+    "es": "Foto de hermanos entrenando juntos en la misma sesión.",
+    "en": "Photo of siblings training together in the same session."
    },
    {
-    "es": "Imagen clara con las fechas de las próximas pruebas (tryouts).",
-    "en": "Clear image with the dates of the next tryouts."
+    "es": "Carrusel con los jugadores del club que firmaron con universidades este año, con autorización de las familias.",
+    "en": "Carousel with club players who signed with colleges this year, with the families' authorization."
    }
   ],
   "Juve Miami": [
    {
-    "es": "La mejor jugada o la celebración del fin de semana en un reel corto.",
-    "en": "The weekend's best play or celebration in a short reel."
+    "es": "Video corto de un grupo que viaja a un torneo, desde la salida hasta el primer partido.",
+    "en": "Short video of a group traveling to a tournament, from departure to the first match."
    },
    {
-    "es": "Reel de una jugada con la pregunta \"¿qué posición es?\" para que las familias respondan.",
-    "en": "Reel of a play with the question \"which position is it?\" for families to answer."
+    "es": "Carrusel de hermanos o familiares que juegan en el club, con autorización de las familias.",
+    "en": "Carousel of siblings or relatives playing at the club, with the families' authorization."
    }
   ],
   "Juventus Camps": [
    {
-    "es": "Carrusel con ciudades y fechas 2027 y un \"¿quién puede venir?\" en preguntas y respuestas.",
-    "en": "Carousel with 2027 cities and dates plus a \"who can join?\" Q&A."
+    "es": "Reel del primer día del viaje a Italy: llegada, estadio y reacciones, con autorización de las familias.",
+    "en": "Reel of the first day of the trip to Italy: arrival, stadium and reactions, with the families' authorization."
    },
    {
-    "es": "Historia de un jugador seleccionado que viajó a Italia: de dónde salió y qué vivió, con autorización de las familias.",
-    "en": "Story of a selected player who traveled to Italy: where they came from and what they lived, with the families' authorization."
+    "es": "Carrusel con las sedes y fechas de los camps 2027 y el paso a paso para inscribirse.",
+    "en": "Carousel with 2027 camp venues and dates and the step-by-step to sign up."
    }
   ]
  },
  "destacadas": [
   {
    "titulo": {
-    "es": "Momentos reales en video corto",
-    "en": "Real moments in short video"
+    "es": "Viaje del camp a Europa",
+    "en": "Camp trip to Europe"
    },
-   "cuenta": "intermiamicf",
-   "enlace": "https://www.instagram.com/reel/DfqCMcRsWF2/",
-   "likes": 495700,
-   "comentarios": 1798,
-   "vistas": 10567511
+   "cuenta": "rmfcampsusa",
+   "enlace": "https://www.instagram.com/reel/DgD354toi9v/",
+   "likes": 7129,
+   "comentarios": 12,
+   "vistas": 101523
   },
   {
    "titulo": {
-    "es": "Anuncio con fechas y sedes",
-    "en": "Announcement with dates and venues"
+    "es": "Hermanos en la misma cancha",
+    "en": "Siblings on the same pitch"
    },
-   "cuenta": "usyouthsoccer",
-   "enlace": "https://www.instagram.com/p/DfkbVfIJnzD/",
-   "likes": 2086,
+   "cuenta": "ecnlgirls",
+   "enlace": "https://www.instagram.com/p/DfyF4dHjAkc/",
+   "likes": 6687,
    "comentarios": 3
   },
   {
    "titulo": {
-    "es": "Del camp o la academia al club profesional",
-    "en": "From camp or academy to a pro club"
-   },
-   "cuenta": "rmfclinicsusa",
-   "enlace": "https://www.instagram.com/reel/DfpgnetxdGK/",
-   "likes": 104,
-   "comentarios": 0,
-   "vistas": 4801
-  },
-  {
-   "titulo": {
-    "es": "Pregunta al público",
-    "en": "Question to the audience"
+    "es": "Compromisos universitarios",
+    "en": "College commitments"
    },
    "cuenta": "ecnlgirls",
-   "enlace": "https://www.instagram.com/reel/DfxYGlCPxr5/",
-   "likes": 4187,
-   "comentarios": 13,
-   "vistas": 150036
+   "enlace": "https://www.instagram.com/p/Df516Cnmo01/",
+   "likes": 5682,
+   "comentarios": 15
   },
   {
    "titulo": {
-    "es": "Homenaje con gesto de equipo",
-    "en": "Team-gesture tribute"
+    "es": "Retos y votaciones",
+    "en": "Challenges and polls"
    },
-   "cuenta": "brfootball",
-   "enlace": "https://www.instagram.com/p/DfvBdH9muYX/",
-   "likes": 91360,
-   "comentarios": 1231
+   "cuenta": "fcbayernpathway",
+   "enlace": "https://www.instagram.com/reel/Df2bdvlRonn/",
+   "likes": 6720,
+   "comentarios": 47,
+   "vistas": 348260
+  },
+  {
+   "titulo": {
+    "es": "Anuncio de camps con ciudades",
+    "en": "Camp announcement with cities"
+   },
+   "cuenta": "barcaacademyus",
+   "enlace": "https://www.instagram.com/p/Df6R-T4gJzu/",
+   "likes": 911,
+   "comentarios": 7
   }
  ],
  "auto": true,
@@ -138,27 +137,6 @@
    ]
   },
   {
-   "hashtag": "#summercamp",
-   "tipo": {
-    "es": "Camps",
-    "en": "Camps"
-   },
-   "que_es": {
-    "es": "Recuerdos de campamentos de verano: momentos divertidos, amigos y el último día.",
-    "en": "Summer camp memories: fun moments, friends and the last day."
-   },
-   "vistas": 4503887,
-   "curva": [
-    0,
-    12,
-    63.3,
-    100,
-    89,
-    54.3,
-    48.8
-   ]
-  },
-  {
    "hashtag": "#missingsummer",
    "tipo": {
     "es": "Formato",
@@ -177,6 +155,27 @@
     48,
     56.6,
     100
+   ]
+  },
+  {
+   "hashtag": "#summercamp",
+   "tipo": {
+    "es": "Camps",
+    "en": "Camps"
+   },
+   "que_es": {
+    "es": "Recuerdos de campamentos de verano: momentos divertidos, amigos y el último día. Bajó tras su punto más alto.",
+    "en": "Summer camp memories: fun moments, friends and the last day. It eased after its peak."
+   },
+   "vistas": 4503887,
+   "curva": [
+    0,
+    12,
+    63.3,
+    100,
+    89,
+    54.3,
+    48.8
    ]
   },
   {
@@ -201,57 +200,36 @@
    ]
   },
   {
-   "hashtag": "#nationsleague",
+   "hashtag": "#headstand",
    "tipo": {
-    "es": "Fútbol",
-    "en": "Soccer"
+    "es": "Reto",
+    "en": "Challenge"
    },
    "que_es": {
-    "es": "El torneo de selecciones de Europa (UEFA Nations League), en subida toda la semana.",
-    "en": "Europe's national-team tournament (UEFA Nations League), rising all week."
+    "es": "Reto de equilibrio: pararse de cabeza o de manos. Tuvo su punto más alto a mitad de semana.",
+    "en": "Balance challenge: headstands or handstands. It peaked mid-week."
    },
-   "vistas": 15846327,
+   "vistas": 4438391,
    "curva": [
-    12.2,
     0,
-    10.7,
-    39.1,
-    51.7,
-    91.8,
-    100
-   ]
-  },
-  {
-   "hashtag": "#ardaguler",
-   "tipo": {
-    "es": "Fútbol",
-    "en": "Soccer"
-   },
-   "que_es": {
-    "es": "Arda Güler, la joven figura del Real Madrid: sus goles y jugadas, en subida al cierre de la semana.",
-    "en": "Arda Güler, Real Madrid's young star: his goals and plays, rising at the end of the week."
-   },
-   "vistas": 18474201,
-   "curva": [
-    59.4,
-    50.5,
-    0,
-    24.2,
-    54.7,
-    98.4,
-    100
+    23.7,
+    13.8,
+    31,
+    100,
+    96.7,
+    44.7
    ]
   }
  ],
  "url": "https://almacenamiento982-blip.github.io/tendencias-redes-futbol/",
- "actualizado": "2026-11-16T12:31:52Z",
+ "actualizado": "2026-11-23T12:34:18Z",
  "act_txt": {
-  "es": "lun 16 nov, 7:31 a. m.",
-  "en": "Mon, Nov 16, 7:31 AM"
+  "es": "lun 23 nov, 7:34 a. m.",
+  "en": "Mon, Nov 23, 7:34 AM"
  },
  "prox_txt": {
-  "es": "lun 23 nov, 7:30 a. m.",
-  "en": "Mon, Nov 23, 7:30 AM"
+  "es": "lun 30 nov, 7:30 a. m.",
+  "en": "Mon, Nov 30, 7:30 AM"
  },
- "prox_iso": "2026-11-23T07:30"
+ "prox_iso": "2026-11-30T07:30"
 }

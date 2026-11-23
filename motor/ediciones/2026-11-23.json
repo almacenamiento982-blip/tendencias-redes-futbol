@@ -1,0 +1,345 @@
+{
+ "numero": 3,
+ "fecha": "2026-11-23",
+ "fecha_texto": {
+  "es": "23 de noviembre",
+  "en": "November 23"
+ },
+ "actualizado": "2026-11-23T12:34:18Z",
+ "auto": true,
+ "resumen": {
+  "es": "Esta semana funcionaron el viaje del camp contado en video, los momentos de hermanos en la cancha, los anuncios de compromisos universitarios, los retos y votaciones, y los anuncios de camps con ciudades.",
+  "en": "This week what worked were camp trips told in video, siblings on the pitch, college-commitment announcements, challenges and polls, and camp announcements with cities."
+ },
+ "tendencias": [
+  {
+   "titulo": {
+    "es": "Viaje del camp a Europa",
+    "en": "Camp trip to Europe"
+   },
+   "origen": "instagram",
+   "que_es": {
+    "es": "Reel corto que muestra lo que viven los participantes del camp en el viaje: llegada, estadio y primeros días.",
+    "en": "Short reel showing what camp participants live on the trip: arrival, stadium and first days."
+   },
+   "dato": {
+    "es": "El reel de la experiencia de un camp de Real Madrid Foundation en Madrid tuvo 176 veces más me gusta de lo normal en esa cuenta; el de Barça Academy US sobre el viaje a Barcelona, casi 3 veces más.",
+    "en": "A Real Madrid Foundation camp's Madrid-experience reel got 176 times more likes than usual on that account; Barça Academy US's reel about the trip to Barcelona, almost 3 times more."
+   },
+   "ejemplos": [
+    {
+     "cuenta": "rmfcampsusa",
+     "enlace": "https://www.instagram.com/reel/DgD354toi9v/",
+     "likes": 7129,
+     "comentarios": 12,
+     "vistas": 101523
+    },
+    {
+     "cuenta": "barcaacademyus",
+     "enlace": "https://www.instagram.com/reel/Df2aSy8AyiZ/",
+     "likes": 772,
+     "comentarios": 14,
+     "vistas": 15530
+    }
+   ],
+   "replicar": [
+    {
+     "cuenta": "Juventus Camps",
+     "es": "Reel del primer día del viaje a Italy: llegada, estadio y reacciones, con autorización de las familias.",
+     "en": "Reel of the first day of the trip to Italy: arrival, stadium and reactions, with the families' authorization."
+    },
+    {
+     "cuenta": "Juve Miami",
+     "es": "Video corto de un grupo que viaja a un torneo, desde la salida hasta el primer partido.",
+     "en": "Short video of a group traveling to a tournament, from departure to the first match."
+    }
+   ]
+  },
+  {
+   "titulo": {
+    "es": "Hermanos en la misma cancha",
+    "en": "Siblings on the same pitch"
+   },
+   "origen": "instagram",
+   "que_es": {
+    "es": "Fotos de hermanos que juegan juntos, con una frase corta sobre lo que significa jugar al lado de la familia.",
+    "en": "Photos of siblings playing together, with a short line about what it means to play next to family."
+   },
+   "dato": {
+    "es": "Un carrusel de ECNL Girls sobre jugar junto a una hermana tuvo 5 veces más me gusta de lo normal en esa cuenta.",
+    "en": "An ECNL Girls carousel about playing next to a sister got 5 times more likes than usual on that account."
+   },
+   "ejemplos": [
+    {
+     "cuenta": "ecnlgirls",
+     "enlace": "https://www.instagram.com/p/DfyF4dHjAkc/",
+     "likes": 6687,
+     "comentarios": 3
+    }
+   ],
+   "replicar": [
+    {
+     "cuenta": "Juve Miami",
+     "es": "Carrusel de hermanos o familiares que juegan en el club, con autorización de las familias.",
+     "en": "Carousel of siblings or relatives playing at the club, with the families' authorization."
+    },
+    {
+     "cuenta": "Athletum",
+     "es": "Foto de hermanos entrenando juntos en la misma sesión.",
+     "en": "Photo of siblings training together in the same session."
+    }
+   ]
+  },
+  {
+   "titulo": {
+    "es": "Compromisos universitarios",
+    "en": "College commitments"
+   },
+   "origen": "instagram",
+   "que_es": {
+    "es": "Carrusel que felicita a los jugadores que firman con una universidad y invita a compartir más casos.",
+    "en": "Carousel congratulating players who sign with a college and inviting others to share theirs."
+   },
+   "dato": {
+    "es": "El carrusel de compromisos universitarios de ECNL Girls tuvo casi 5 veces más me gusta de lo normal en esa cuenta.",
+    "en": "ECNL Girls' college-commitments carousel got almost 5 times more likes than usual on that account."
+   },
+   "ejemplos": [
+    {
+     "cuenta": "ecnlgirls",
+     "enlace": "https://www.instagram.com/p/Df516Cnmo01/",
+     "likes": 5682,
+     "comentarios": 15
+    }
+   ],
+   "replicar": [
+    {
+     "cuenta": "Athletum",
+     "es": "Carrusel con los jugadores del club que firmaron con universidades este año, con autorización de las familias.",
+     "en": "Carousel with club players who signed with colleges this year, with the families' authorization."
+    },
+    {
+     "cuenta": "Juve Miami",
+     "es": "Mensaje de felicitación con la camiseta del club y la universidad elegida.",
+     "en": "Congratulation post with the club jersey and the chosen college."
+    }
+   ]
+  },
+  {
+   "titulo": {
+    "es": "Retos y votaciones",
+    "en": "Challenges and polls"
+   },
+   "origen": "instagram",
+   "que_es": {
+    "es": "Reels de un reto de goles entre grupos o de dos jugadas para que el público vote su favorita.",
+    "en": "Reels of a scoring challenge between groups or two plays for the audience to vote on their favorite."
+   },
+   "dato": {
+    "es": "El reto de goles de Bayern Pathway tuvo 3 veces y media más me gusta de lo normal; la votación entre dos atajadas de ECNL Girls, casi 3 veces más.",
+    "en": "Bayern Pathway's scoring challenge got 3.5 times more likes than usual; ECNL Girls' poll between two saves, almost 3 times more."
+   },
+   "ejemplos": [
+    {
+     "cuenta": "fcbayernpathway",
+     "enlace": "https://www.instagram.com/reel/Df2bdvlRonn/",
+     "likes": 6720,
+     "comentarios": 47,
+     "vistas": 348260
+    },
+    {
+     "cuenta": "ecnlgirls",
+     "enlace": "https://www.instagram.com/reel/Df3JZevvpHH/",
+     "likes": 3427,
+     "comentarios": 16,
+     "vistas": 101267
+    }
+   ],
+   "replicar": [
+    {
+     "cuenta": "Athletum",
+     "es": "Reto de goles entre dos grupos del entrenamiento, con marcador en pantalla.",
+     "en": "Scoring challenge between two training groups, with the score on screen."
+    },
+    {
+     "cuenta": "Juve Miami",
+     "es": "Reel con dos jugadas del fin de semana y \"¿A o B?\" en los comentarios.",
+     "en": "Reel with two plays from the weekend and \"A or B?\" in the comments."
+    }
+   ]
+  },
+  {
+   "titulo": {
+    "es": "Anuncio de camps con ciudades",
+    "en": "Camp announcement with cities"
+   },
+   "origen": "instagram",
+   "que_es": {
+    "es": "Carrusel que presenta el camp del próximo año con número de ciudades, duración y cómo inscribirse.",
+    "en": "Carousel presenting next year's camp with number of cities, length and how to sign up."
+   },
+   "dato": {
+    "es": "El anuncio de los camps 2027 de Barça Academy US tuvo más de 3 veces más me gusta de lo normal en esa cuenta.",
+    "en": "Barça Academy US's 2027 camps announcement got more than 3 times more likes than usual on that account."
+   },
+   "ejemplos": [
+    {
+     "cuenta": "barcaacademyus",
+     "enlace": "https://www.instagram.com/p/Df6R-T4gJzu/",
+     "likes": 911,
+     "comentarios": 7
+    }
+   ],
+   "replicar": [
+    {
+     "cuenta": "Juventus Camps",
+     "es": "Carrusel con las sedes y fechas de los camps 2027 y el paso a paso para inscribirse.",
+     "en": "Carousel with 2027 camp venues and dates and the step-by-step to sign up."
+    },
+    {
+     "cuenta": "Athletum",
+     "es": "Anuncio claro de las próximas pruebas (tryouts) con fechas y lugar.",
+     "en": "Clear announcement of the next tryouts with dates and place."
+    }
+   ]
+  }
+ ],
+ "tiktok": {
+  "nota": {
+   "es": "Del top 100 de deportes de TikTok en EE. UU. (lectura del 15 de noviembre, últimos 7 días), lo que se puede llevar a nuestras cuentas. La línea muestra cómo se movió en la semana.",
+   "en": "From the TikTok U.S. sports top 100 (read on November 15, last 7 days), what can be brought to our accounts. The line shows how it moved during the week."
+  },
+  "items": [
+   {
+    "hashtag": "#whiletheyreoutpartyingbtw",
+    "tipo": {
+     "es": "Formato",
+     "en": "Format"
+    },
+    "que_es": {
+     "es": "\"Mientras ellos están de fiesta…\": video entrenando de noche o al amanecer, con ese texto en pantalla. Sigue subiendo.",
+     "en": "\"While they're out partying…\": a video training at night or at dawn, with that text on screen. Still rising."
+    },
+    "replicar": {
+     "cuenta": "Athletum",
+     "es": "Entrenamiento extra temprano o de noche con el texto \"while they're out partying, btw\".",
+     "en": "Extra early or late training with the text \"while they're out partying, btw\"."
+    },
+    "vistas": 1588118,
+    "curva": [
+     0,
+     35.8,
+     47.7,
+     59.8,
+     89.4,
+     100,
+     96.4
+    ]
+   },
+   {
+    "hashtag": "#missingsummer",
+    "tipo": {
+     "es": "Formato",
+     "en": "Format"
+    },
+    "que_es": {
+     "es": "\"Extrañando el verano\": clips de verano con nostalgia. Subió fuerte al final de la semana.",
+     "en": "\"Missing summer\": nostalgic summer clips. It rose sharply at the end of the week."
+    },
+    "replicar": {
+     "cuenta": "Juventus Camps",
+     "es": "\"Extrañando el verano\" con lo mejor del camp y la cuenta regresiva a 2027.",
+     "en": "\"Missing summer\" with camp highlights and the countdown to 2027."
+    },
+    "vistas": 1083278,
+    "curva": [
+     0.6,
+     0,
+     42.4,
+     50.3,
+     48,
+     56.6,
+     100
+    ]
+   },
+   {
+    "hashtag": "#summercamp",
+    "tipo": {
+     "es": "Camps",
+     "en": "Camps"
+    },
+    "que_es": {
+     "es": "Recuerdos de campamentos de verano: momentos divertidos, amigos y el último día. Bajó tras su punto más alto.",
+     "en": "Summer camp memories: fun moments, friends and the last day. It eased after its peak."
+    },
+    "replicar": {
+     "cuenta": "Juventus Camps",
+     "es": "Video corto de recuerdos de los camps 2026 que termine con las fechas 2027.",
+     "en": "Short memories video from the 2026 camps ending with the 2027 dates."
+    },
+    "vistas": 4503887,
+    "curva": [
+     0,
+     12,
+     63.3,
+     100,
+     89,
+     54.3,
+     48.8
+    ]
+   },
+   {
+    "hashtag": "#technique",
+    "tipo": {
+     "es": "Fútbol",
+     "en": "Soccer"
+    },
+    "que_es": {
+     "es": "Técnica explicada: un gesto o un ejercicio mostrado paso a paso.",
+     "en": "Technique explained: a move or drill shown step by step."
+    },
+    "replicar": {
+     "cuenta": "Juve Miami",
+     "es": "Un ejercicio técnico explicado por un entrenador en 15 segundos.",
+     "en": "A technical drill explained by a coach in 15 seconds."
+    },
+    "vistas": 4475876,
+    "curva": [
+     82.3,
+     0,
+     6.3,
+     9,
+     100,
+     56.9,
+     61
+    ]
+   },
+   {
+    "hashtag": "#headstand",
+    "tipo": {
+     "es": "Reto",
+     "en": "Challenge"
+    },
+    "que_es": {
+     "es": "Reto de equilibrio: pararse de cabeza o de manos. Tuvo su punto más alto a mitad de semana.",
+     "en": "Balance challenge: headstands or handstands. It peaked mid-week."
+    },
+    "replicar": {
+     "cuenta": "Athletum",
+     "es": "Reto de equipo: quién aguanta más parado de manos al final del entrenamiento.",
+     "en": "Team challenge: who holds a handstand the longest at the end of training."
+    },
+    "vistas": 4438391,
+    "curva": [
+     0,
+     23.7,
+     13.8,
+     31,
+     100,
+     96.7,
+     44.7
+    ]
+   }
+  ]
+ }
+}
